@@ -145,7 +145,7 @@ div.main {
 	margin-bottom: 20px;
 	padding: 10px 30px 30px 30px;
 	background-color: #fff;
-	border-radius: 6px;
+	border-radius: 20px 0 20px 0;
 	}
 
 	
@@ -214,9 +214,7 @@ body, select, input, textarea {color: #333;}
 
 
 nav {
-	background-color: #E3CCA8;
-	border-radius: 20px 0 20px 0;
-	border-color: 1px dotted #000;
+	background-color: #fff;
 	margin: 0 0 30px; 
 	padding-top: 12px; 
 	text-align: center;
@@ -248,6 +246,7 @@ nav ol li a:hover {
 	padding: 5px;
 	background-color: #fff;
 	border-radius:4px;
+	border-bottom: #333;
 	}
 
 a {
@@ -258,7 +257,7 @@ a {
 }
 a:hover {
 	color: #4C0D08;
-	border-bottom: 1px dotted #B59F66;
+	border-bottom: #333;
 	}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
