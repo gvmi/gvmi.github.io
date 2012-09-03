@@ -133,7 +133,7 @@ body {
 
 div.wrapper{
 	
-	max-width: 900px;
+	max-width: 940px;
 	margin: 0 auto;
 	background-color: #fff;
 	border-right: 11px solid #333;
@@ -143,7 +143,7 @@ div.wrapper{
 
 div.main {
 	width: 80%;	
-	max-width: 680px;
+	max-width: 720px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	padding: 10px 30px 30px 30px;
@@ -179,10 +179,10 @@ div.main {
                0 3px 5px rgba(200,215,220,.4),
                0 5px 10px rgba(200,215,220,.35),
                0 20px 20px rgba(200,215,220,.25);
-/*    transition: color 1s ease;
+   transition: color 1s ease;
 	-moz-transition: color 1s ease; 
 	-webkit-transition: color 1s ease; 
-	-o-transition: color 1s ease; */
+	-o-transition: color 1s ease; 
 		}
 #teatime:hover{
 	color: #333;
@@ -191,11 +191,12 @@ div.main {
 	
 	
 article h1 {
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
 	text-transform: lowercase;
 	margin: 20px 0 20px 0;
-	font-weight: normal;
 	}
 article	h1 strong {display: block; font-size: 56px;}
 	
@@ -238,13 +239,13 @@ nav ol li:last-child {
 		
 nav ol li a {
 	text-decoration: none; 
-	font-size: 20px; 
+	font-size: 16px; 
 	padding: 5px;
 	text-transform: none; 
-	color: #fff; 
+	color: #333; 
 	font-family: 'Lato', sans-serif; 
 	white-space: nowrap;
-	background-color: #333;
+	background-color: #fff;
 /*	background-color: #fff;
 	transition: color .5s ease;
 	-moz-transition: color .5s ease; 
@@ -257,9 +258,9 @@ nav ol li a {
 	}
 	
 nav ol li a:hover {
-	color: #fff;
+	color: #DB1B2D;
 	padding: 5px;
-	background-color: #DB1B2D;
+	background-color: #fff;
 	border-bottom: none;
 	}
 
