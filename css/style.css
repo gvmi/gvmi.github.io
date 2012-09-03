@@ -246,7 +246,7 @@ nav ol li a:hover {
 	padding: 5px;
 	background-color: #fff;
 	border-radius:4px;
-	border-bottom: #333;
+	border-bottom: 1px dotted #333;
 	}
 
 a {
@@ -257,7 +257,7 @@ a {
 }
 a:hover {
 	color: #4C0D08;
-	border-bottom: #333;
+	border-bottom: 1px dotted #333;
 	}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
