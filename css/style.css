@@ -146,23 +146,6 @@ div.main {
 	padding: 10px 30px 30px 30px;
 	background-color: #fff;
 	border-radius: 6px;
-	float: right;
-
-	}
-	
-
-div.banner img{
-  	/*position: fixed; 
-  	width: 400px;
-  	height: 258px;
-  	top: 0;
-  	left: 108px;
-  	float: left;*/
-	width: 17%;
- 	margin-right: auto;
- 	max-width: 100%;
- 	float: left;
-  	z-index: 100;
 	}
 
 	
