@@ -135,9 +135,10 @@ div.wrapper{
 	
 	max-width: 940px;
 	margin: 0 auto;
-	padding-top: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	background-color: #fff;
-	border: 11px solid #efefef;
+	border: 13px solid #F3F4E5;
 
 	}
 
@@ -158,13 +159,14 @@ div.main {
   	float: left;*/	
   	width: 100%;	
   	margin: 0 auto;
-	margin-bottom: -2%;
-	padding-top: 2%;
+	margin-bottom: 0%;
+	padding-top: 5%;
 	max-width: 900px;
   	z-index: 100;
   	font-family: 'Miniver', cursive;
   	font-size: 54px;
-	color: #DB1B2D;
+	color: #F9CDAD;
+	text-align: center;
 	cursor: default;
 	text-shadow: 0 1px 0 #fff,
                0 2px 0 #fff,
@@ -183,17 +185,17 @@ div.main {
 	-o-transition: color 1s ease; 
 		}
 #teatime:hover{
-	color: #333;
+	color: #C8C8A9;
 		}
 		
 	
 	
 article h1 {
-	font-family: 'Lora', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	font-style: italic;
+	font-style: normal;
 	font-weight: normal;
-	text-transform: lowercase;
+	text-transform: uppercase;
 	margin: 20px 0 20px 0;
 	}
 article	h1 strong {display: block; font-size: 56px;}
@@ -221,8 +223,8 @@ nav {
 	margin: 0 0 5px; 
 	padding-top: 12px; 
 	text-align: left;
-	border-top: 1px dotted #333;
-	border-bottom: 1px dotted #333;
+	border-top: 1px dotted #DAC8B0;
+	border-bottom: 1px dotted #DAC8B0;
 	}
 
 nav ol li {
@@ -244,33 +246,32 @@ nav ol li a {
 	font-family: 'Lato', sans-serif; 
 	white-space: nowrap;
 	background-color: #fff;
-/*	background-color: #fff;
-	transition: color .5s ease;
-	-moz-transition: color .5s ease; 
-	-webkit-transition: color .5s ease; 
-	-o-transition: color .5s ease;*/
-	transition: background .5s ease;
-	-moz-transition: background .5s ease; 
-	-webkit-transition: background .5s ease; 
-	-o-transition: background .5s ease;
+   background-color: #fff;
+	transition: color 1s ease;
+	-moz-transition: color 1s ease; 
+	-webkit-transition: color 1s ease; 
+	-o-transition: color 1s ease;
 	}
 	
 nav ol li a:hover {
-	color: #DB1B2D;
+	color: #FC9D9A;
 	padding: 5px;
 	background-color: #fff;
 	border-bottom: none;
 	}
 
 a {
-	color: #DB1B2D;
+	color: #83AF9B;
 	border: none;
 	text-decoration: none;
-
+	transition: color 1s ease;
+	-moz-transition: color 1s ease; 
+	-webkit-transition: color 1s ease; 
+	-o-transition: color 1s ease;
 }
 a:hover {
-	color: #4C0D08;
-	border-bottom: 1px dotted #333;
+	color: #C8C8A9;
+	border-bottom: 1px dotted #FC9D9A;
 	}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
@@ -317,5 +318,6 @@ footer {
 @media all and (orientation: landscape) {
 	
 }
+
 
 
