@@ -161,14 +161,17 @@ div.main {
   	margin: 0 auto;
 	margin-bottom: 0%;
 	padding-top: 5%;
-	max-width: 900px;
+	max-width: 730px;
   	z-index: 100;
-  	font-family: 'Miniver', cursive;
+/*  	font-family: 'Miniver', cursive;*/
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
   	font-size: 54px;
 	color: #F9CDAD;
 	text-align: center;
 	cursor: default;
-	text-shadow: 0 1px 0 #fff,
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, .1);
+/*	text-shadow: 0 1px 0 #fff,
                0 2px 0 #fff,
                0 3px 0 #fff,
                0 4px 0 #fff,
@@ -178,7 +181,7 @@ div.main {
                0 1px 3px rgba(200,215,220,.5),
                0 3px 5px rgba(200,215,220,.4),
                0 5px 10px rgba(200,215,220,.35),
-               0 20px 20px rgba(200,215,220,.25);
+               0 20px 20px rgba(200,215,220,.25);*/
    transition: color 1s ease;
 	-moz-transition: color 1s ease; 
 	-webkit-transition: color 1s ease; 
