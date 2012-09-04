@@ -135,9 +135,9 @@ div.wrapper{
 	
 	max-width: 940px;
 	margin: 0 auto;
+	padding-top: 10px;
 	background-color: #fff;
-	border-right: 11px solid #333;
-	border-left: 11px solid #333;
+	border: 11px solid #efefef;
 
 	}
 
@@ -160,9 +160,8 @@ div.main {
   	margin: 0 auto;
 	margin-bottom: -2%;
 	padding-top: 2%;
-	max-width: 800px;
+	max-width: 900px;
   	z-index: 100;
-  	text-align: left;
   	font-family: 'Miniver', cursive;
   	font-size: 54px;
 	color: #DB1B2D;
