@@ -41,7 +41,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	-->
 
-	<link rel="shortcut icon" href="_/img/favicon.ico">
+<!--	<link rel="shortcut icon" href="_/img/favicon.ico"> -->
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK
@@ -54,14 +54,18 @@
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
 	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link rel="stylesheet" href="/css/style.css">
+<!--	<link rel="stylesheet" href="/css/style.css"> -->
 	
 	<!-- Fonts from google! -->	
-	<link href='http://fonts.googleapis.com/css?family=Miniver|Lora:400,400italic|Lato:300' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic|Lato:300' rel='stylesheet' type='text/css'>	
 
 	
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
 	<script src="_/js/modernizr-1.7.min.js"></script>
+
+
+<link href="/css/style.css?ver=<?php echo(filemtime("style.css")); ?>" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="_/images/favicon.ico?ver=<?php echo(filemtime("favicon.ico")); ?>" />
 
 </head>
 
