@@ -274,7 +274,7 @@ body, select, input, textarea {color: #333;}
 
 nav {
 	margin-top: 43px;
-	max-width: 470px;
+	max-width: 455px;
 	margin-right: auto;
 	margin-left: auto;
 	}
@@ -285,9 +285,10 @@ nav {
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-bottom: 80px;
+	padding-bottom: 90px;
 	margin: 5px;
 	max-width: 50px;
+	max-height: 50px;
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
 	font-size: 100px;
