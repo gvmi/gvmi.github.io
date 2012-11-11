@@ -283,10 +283,7 @@ nav {
 .boxes {
 	display: block;
 	float: left;
-	height: 70px;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 50px;
 	margin: 5px;
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
