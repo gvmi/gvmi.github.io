@@ -285,7 +285,9 @@ nav {
 	float: left;
 	padding: 50px;
 	margin: 5px;
-	font-family: 'entypo-social', 'entypo', Arial, sans-serif;
+	max-height: 50px;
+	max-width: 50px;
+	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
 	font-size: 100px;
 	background-color: #fff;
