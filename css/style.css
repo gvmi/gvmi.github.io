@@ -126,6 +126,8 @@ button {width: auto; overflow: visible;}
 	url("/fonts/entypo-social.woff") format("woff"),
 	url("/fonts/entypo-social.svg") format("svg"),
 	url("/fonts/entypo-social.ttf") format("truetype");
+	font-weight: normal;
+   font-style: normal;
 	}
 
 @font-face {
@@ -134,6 +136,8 @@ button {width: auto; overflow: visible;}
 	url("/fonts/entypo.woff") format("woff"),
 	url("/fonts/entypo.svg") format("svg"),
 	url("/fonts/entypo.ttf") format("truetype");
+	font-weight: normal;
+   font-style: normal;
 	}
 
 /* fun stuff
@@ -284,7 +288,6 @@ nav {
 	float: left;
 	margin: 5px;
 	padding: 30px; 
-	padding-top: 56px;
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
 	font-size: 120px;
