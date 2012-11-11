@@ -274,7 +274,7 @@ body, select, input, textarea {color: #333;}
 
 nav {
 	margin-top: 30px;
-	max-width: 460px;
+	max-width: 490px;
 	margin-right: auto;
 	margin-left: auto;
 	
@@ -283,7 +283,7 @@ nav {
 .boxes {
 	display: block;
 	float: left;
-	height: 50px;
+	height: 70px;
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
