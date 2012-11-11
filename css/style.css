@@ -277,7 +277,7 @@ nav {
 	max-width: 490px;
 	margin-right: auto;
 	margin-left: auto;
-	
+	height: 200px;
 	}
 
 .boxes {
@@ -285,7 +285,6 @@ nav {
 	float: left;
 	padding: 50px;
 	margin: 5px;
-	max-height: 100px;
 	max-width: 50px;
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
