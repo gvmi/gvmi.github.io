@@ -282,15 +282,15 @@ nav {
 	}
 
 .boxes {
-	width: 70px;
-	height: 70px;
+	max-width: 70px;
+	max-height: 70px;
 	display: block;
 	float: left;
 	margin: 5px;
-	padding: 30px; 
+	padding: 45px; 
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
-	font-size: 120px;
+	font-size: 100px;
 	text-align: center;
 	background-color:#fff;
 	-webkit-border-radius: 0px 35px 0px 35px;
