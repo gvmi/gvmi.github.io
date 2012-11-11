@@ -125,6 +125,7 @@ button {width: auto; overflow: visible;}
 	src: url("/fonts/entypo-social.eot") format("eot"),
 	url("/fonts/entypo-social.woff") format("woff"),
 	url("/fonts/entypo-social.svg") format("svg"),
+	url("/fonts/entypo-social.otf") format("opentype"),
 	url("/fonts/entypo-social.ttf") format("truetype");
 	font-weight: normal;
    font-style: normal;
