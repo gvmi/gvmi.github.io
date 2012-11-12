@@ -10,7 +10,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-65","0"]
+   		position: 'bottom'
 		});   
    
 		$(".github").simpletip({
@@ -18,7 +18,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-85","0"]
+   		position: 'bottom'
 		});
 		
 		$(".contact").simpletip({
@@ -26,7 +26,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-85","0"]
+   		position: 'bottom'
 		});	
 
    
@@ -35,7 +35,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-85","0"]
+   		position: 'left'
 		});
 
 });
