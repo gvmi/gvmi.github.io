@@ -280,19 +280,16 @@ nav {
 	margin-left: auto;
 	}
 
-.boxes {
+.blogico {
+	background: url('../images/blog1.png') no-repeat center top;
 	display: block;
 	float: left;
-	padding-top: 35px;
-	padding-left: 45px;
-	padding-right: 45px;
 	margin: 5px;
-	max-width: 50px;
-	height: 90px;
+	width: 140px;
+	height: 130px;
 	font-family: 'entypo-social', 'entypo';
 	color: #C8C8A9;
 	font-size: 100px;
-	background-color: #fff;
 	text-align: center;
 	-webkit-border-radius: 0px 35px 0px 35px;
 	-moz-border-radius: 0px 35px 0px 35px;
@@ -300,19 +297,84 @@ nav {
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
-	transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease; 
-	-webkit-transition: background-color 0.5s ease; 
-	-o-transition: background-color 0.5s ease; 	
+	transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear; 
+	-webkit-transition: background 0.5s linear; 
+	-o-transition: background 0.5s linear; 	
 	transition: color 0.5s ease;
 	-moz-transition: color 0.5s ease; 
 	-webkit-transition: color 0.5s ease; 
 	-o-transition: color 0.5s ease; 	
 	}
 
-.boxes:hover {	
+.blogico:hover {	
 	color: #ffbc9b;
+	background: url('../images/blog2.png') no-repeat center top;	
 	}
+	
+.github {
+	background: url('../images/github1.png') no-repeat center top;
+	display: block;
+	float: left;
+	margin: 5px;
+	width: 140px;
+	height: 130px;
+	font-family: 'entypo-social', 'entypo';
+	color: #C8C8A9;
+	font-size: 100px;
+	text-align: center;
+	-webkit-border-radius: 0px 35px 0px 35px;
+	-moz-border-radius: 0px 35px 0px 35px;
+	border-radius: 0px 35px 0px 35px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;	
+	transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear; 
+	-webkit-transition: background 0.5s linear; 
+	-o-transition: background 0.5s linear; 	
+	transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease; 
+	-webkit-transition: color 0.5s ease; 
+	-o-transition: color 0.5s ease; 	
+	}
+
+.github:hover {	
+	color: #ffbc9b;
+	background: url('../images/github2.png') no-repeat center top;
+	}
+	
+.contact {
+	background: url('../images/contact1.png') no-repeat center top;
+	display: block;
+	float: left;
+	margin: 5px;
+	width: 140px;
+	height: 130px;
+	font-family: 'entypo-social', 'entypo';
+	color: #C8C8A9;
+	font-size: 100px;
+	text-align: center;
+	-webkit-border-radius: 0px 35px 0px 35px;
+	-moz-border-radius: 0px 35px 0px 35px;
+	border-radius: 0px 35px 0px 35px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;	
+	transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear; 
+	-webkit-transition: background 0.5s linear; 
+	-o-transition: background 0.5s linear; 	
+	transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease; 
+	-webkit-transition: color 0.5s ease; 
+	-o-transition: color 0.5s ease; 	
+	}
+
+.contact:hover {	
+	color: #ffbc9b;
+	background: url('../images/contact2.png') no-repeat center top;
+	}	
 
 nav ol li {
 	display: inline-block; 

@@ -5,16 +5,29 @@
 /* trigger when page is ready */
 $(document).ready(function (){
    
-      var arrayData = ['blog', 'github', 'contact'];
-
-		$(".boxes").each(function(i){
-   		$(this).simpletip({    
+		$(".blogico").simpletip({
+   		content: 'blog',
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["0", "0"],
-   		content: arrayData[i] });
+   		position: ["0","0"]
+		});   
+   
+		$(".github").simpletip({
+   		content: 'github',
+   		showEffect: 'slide',
+   		hideEffect: 'fade',
+   		fixed: true,
+   		position: ["0","0"]
 		});
+		
+		$(".contact").simpletip({
+   		content: 'contact',
+   		showEffect: 'slide',
+   		hideEffect: 'fade',
+   		fixed: true,
+   		position: ["0","0"]
+		});	
 
    
 		$(".home").simpletip({
