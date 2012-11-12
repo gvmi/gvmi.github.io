@@ -35,7 +35,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-65","0"]
+   		position: ["-70","0"]
 		});
 
 });
