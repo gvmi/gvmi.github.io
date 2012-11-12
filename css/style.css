@@ -165,7 +165,7 @@ div.wrapper{
 	line-height: 26px;
 	}
 
-div.main {
+.main {
 	width: 80%;	
 	max-width: 720px;
 	margin: 0 auto;
