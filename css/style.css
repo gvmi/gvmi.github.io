@@ -198,11 +198,12 @@ div.wrapper{
 	}
 	
 .home {
-	max-width: 70px;
+	background: #fff url('../images/home1.png') no-repeat center top;
 	display: block;
 	float: right;
 	margin-right: 20px;
-	padding: 20px; 
+	width: 75px;
+	height: 75px;
 	font-family: 'entypo-social', 'entypo';
 	color: #ffbc9b;
 	font-size: 50px;
@@ -228,6 +229,7 @@ div.wrapper{
 	
 .home:hover {
 	color: #C8C8A9;
+	background: #fff url('../images/home2.png') no-repeat center top;
 	}
 	
 #teatime {
