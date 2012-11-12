@@ -10,18 +10,20 @@ permalink: blog/
 
 <article class="blog">
 	
+	{% for post in site.posts limit:5 %}
 	<header>
-		<h1><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h1>
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 		{{ post.date | date: "%B %d, %Y" }}
 	</header>
 	
-	{{ site.posts[0].content }}
+	{{ post.content }}
+	{% endfor %}
 	
 </article>	
 
 <center>
 <aside class="pagination">
-	Previous: <a href="{{ site.posts[0].previous.url }}">{{ site.posts[0].previous.title }}</a>
+	More posts in the <a href="/archive">archive</a>.
 </aside>
 </center>
 	
