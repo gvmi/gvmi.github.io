@@ -367,7 +367,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
    text-align: center;
    line-height: 0px;
    color: #fff;
- 	padding: 15px;
+ 	padding: 13px;
  	white-space: nowrap;
 	background: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 0px 6px 6px 6px;
@@ -377,7 +377,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
             
 .pagination {
 	margin: 20px 0 0 0;
-	padding: 9px;
+	padding: 5px;
 	max-width: 500px;
 	text-transform: uppercase;
 	background-color: #fff;
