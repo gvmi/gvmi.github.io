@@ -5,7 +5,7 @@
 /* trigger when page is ready */
 $(document).ready(function (){
    
-		$(".blogico").simpletip({
+		$(".blog").simpletip({
    		content: 'blog',
    		showEffect: 'slide',
    		hideEffect: 'fade',

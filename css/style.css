@@ -120,33 +120,14 @@ button {width: auto; overflow: visible;}
 
 /* font faces
 -------------------------------------------------------------------------------*/
-@font-face {
-	font-family: 'entypo-social';
-	src: url("/fonts/entypo-social.eot") format("eot"),
-	url("/fonts/entypo-social.woff") format("woff"),
-	url("/fonts/entypo-social.svg") format("svg"),
-	url("/fonts/entypo-social.otf") format("opentype"),
-	url("/fonts/entypo-social.ttf") format("truetype");
-	font-weight: normal;
-   font-style: normal;
-	}
 
-@font-face {
-	font-family: 'entypo';
-	src: url("/fonts/entypo.eot") format("eot"),
-	url("/fonts/entypo.woff") format("woff"),
-	url("/fonts/entypo.svg") format("svg"),
-	url("/fonts/entypo.ttf") format("truetype");
-	font-weight: normal;
-   font-style: normal;
-	}
 
 /* fun stuff
 -------------------------------------------------------------------------------*/
 
 body {
 	background: #f5f4ef url('../images/bg3.png') repeat;	
-	font-family: 'Lato', san-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	font-style: none;
 	font-size: 15px;
 	line-height: 10px;
@@ -154,7 +135,7 @@ body {
    text-rendering: optimizeLegibility;
 	}
 
-div.wrapper{
+.wrapper{
 	
 	max-width: 940px;
 	margin: 0 auto;
@@ -176,28 +157,6 @@ div.wrapper{
 	line-height: 26px;
 	}
 	
-.blog {
-	width: 80%;	
-	max-width: 720px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px 30px 30px 30px;
-	background-color: none;
-	line-height: 26px;
-	}	
-
-.post {
-	width: 80%;	
-	max-width: 720px;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 10px 30px 30px 30px;
-	background-color: none;
-	line-height: 26px;
-	}
-	
 .home {
 	background: #fff url('../images/home1.png') no-repeat center top;
 	display: block;
@@ -205,21 +164,12 @@ div.wrapper{
 	margin-right: 20px;
 	width: 75px;
 	height: 75px;
-	font-family: 'entypo-social', 'entypo';
-	color: #ffbc9b;
-	font-size: 50px;
-	text-align: center;
-	background-color:#fff;
 	-webkit-border-radius: 0px 15px 0px 15px;
 	-moz-border-radius: 0px 15px 0px 15px;
 	border-radius: 0px 15px 0px 15px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;		
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease; 
-	-webkit-transition: color 0.5s ease; 
-	-o-transition: color 0.5s ease; 	
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -229,7 +179,6 @@ div.wrapper{
 	}
 	
 .home:hover {
-	color: #C8C8A9;
 	background: #fff url('../images/home2.png') no-repeat center top;
 	}
 	
@@ -240,7 +189,7 @@ div.wrapper{
 	padding-top: 5%;
 	max-width: 460px;
   	z-index: 100;
-	font-family: 'BenchNine', sans-serif;
+	font-family: 'BenchNine', Arial, sans-serif;
 	text-transform: uppercase;
   	font-size: 98px;
 	color: #ffbc9b;
@@ -264,7 +213,7 @@ div.wrapper{
 	}
 	
 article h1 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', Arial, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
@@ -277,7 +226,7 @@ article	h1 strong {display: block; font-size: 24px;}
 article	h1 a {text-decoration: none; color: #000;}
 
 article h2 {
-	font-family: 'Lora', serif;
+	font-family: 'Lora', Georgia, serif;
 	font-size: 15px;
 	font-style: italic;
 	font-weight: normal;
@@ -294,35 +243,22 @@ nav {
 	margin-left: auto;
 	}
 
-.blogico {
+.blog {
 	background: #fff url('../images/blog1.png') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
 	width: 140px;
 	height: 130px;
-	font-family: 'entypo-social', 'entypo';
-	color: #C8C8A9;
-	font-size: 100px;
-	text-align: center;
 	-webkit-border-radius: 0px 35px 0px 35px;
 	-moz-border-radius: 0px 35px 0px 35px;
 	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
-	transition: background 0.5s linear;
-	-moz-transition: background 0.5s linear; 
-	-webkit-transition: background 0.5s linear; 
-	-o-transition: background 0.5s linear; 	
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease; 
-	-webkit-transition: color 0.5s ease; 
-	-o-transition: color 0.5s ease; 	
 	}
 
-.blogico:hover {	
-	color: #ffbc9b;
+.blog:hover {	
 	background: #fff url('../images/blog2.png') no-repeat center top;	
 	}
 	
@@ -333,28 +269,15 @@ nav {
 	margin: 5px;
 	width: 140px;
 	height: 130px;
-	font-family: 'entypo-social', 'entypo';
-	color: #C8C8A9;
-	font-size: 100px;
-	text-align: center;
 	-webkit-border-radius: 0px 35px 0px 35px;
 	-moz-border-radius: 0px 35px 0px 35px;
 	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
-	transition: background 0.5s linear;
-	-moz-transition: background 0.5s linear; 
-	-webkit-transition: background 0.5s linear; 
-	-o-transition: background 0.5s linear; 	
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease; 
-	-webkit-transition: color 0.5s ease; 
-	-o-transition: color 0.5s ease; 	
 	}
 
 .github:hover {	
-	color: #ffbc9b;
 	background: #fff url('../images/github2.png') no-repeat center top;
 	}
 	
@@ -365,28 +288,15 @@ nav {
 	margin: 5px;
 	width: 140px;
 	height: 130px;
-	font-family: 'entypo-social', 'entypo';
-	color: #C8C8A9;
-	font-size: 100px;
-	text-align: center;
 	-webkit-border-radius: 0px 35px 0px 35px;
 	-moz-border-radius: 0px 35px 0px 35px;
 	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
-	transition: background 0.5s linear;
-	-moz-transition: background 0.5s linear; 
-	-webkit-transition: background 0.5s linear; 
-	-o-transition: background 0.5s linear; 	
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease; 
-	-webkit-transition: color 0.5s ease; 
-	-o-transition: color 0.5s ease; 	
+	box-shadow: #F0E6ED 1px 1px 1px;		
 	}
 
 .contact:hover {	
-	color: #ffbc9b;
 	background: #fff url('../images/contact2.png') no-repeat center top;
 	}	
 
@@ -402,7 +312,7 @@ nav ol li:last-child {
 		
 nav ol li a {
 	text-decoration: none; 
-	font-family: 'Lora', serif;
+	font-family: 'Lora', Georgia, serif;
 	font-size: 20px; 
 	letter-spacing: 0px;
 	padding: 5px;
@@ -420,7 +330,7 @@ nav ol li a:hover {
 	}
 
 a {
-	color: #83AF9B;
+	color: #ffbc9b;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -448,7 +358,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
    z-index: 3;
    display: none;
    font-size: 14px;
-   font-family: 'Lora', sans-serif;
+   font-family: 'Lora', Georgia, serif;
    font-style: italic;
    color: #fff;
  	padding: 9px;
@@ -459,10 +369,9 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 }
             
 .pagination {
-	
 	margin: 20px 0 0 0;
-	padding: 13px;
-	max-width: 600px;
+	padding: 9px;
+	max-width: 500px;
 	text-transform: uppercase;
 	background-color: #fff;
 	-webkit-border-radius: 0px 35px 0px 35px;
@@ -471,24 +380,6 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
-	}
-
-.older, .newer {
-	
-	color: #333;
-	margin: 10px;
-	}
-
-.older:hover, .newer:hover{
-	
-	color: #ffbc9b;
-	margin:10px;
-	}
-
-footer {
-	margin-top: 30px;
-	text-align: center;
-	border-top: 1px dotted #333;
 	}
 
 /* print styles
