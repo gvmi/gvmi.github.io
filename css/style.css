@@ -367,9 +367,9 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
    color: #fff;
  	padding: 6px;
 	background: rgba(0, 0, 0, 0.5);
-	-webkit-border-radius: 0px 6px 6px 6px;
-	-moz-border-radius: 0px 6px 6px 6px;
-	border-radius: 0px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
 }
             
 .pagination {
