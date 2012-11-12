@@ -185,6 +185,17 @@ div.main {
 	background-color: none;
 	line-height: 26px;
 	}	
+
+.post {
+	width: 80%;	
+	max-width: 720px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px 30px 30px 30px;
+	background-color: none;
+	line-height: 26px;
+	}
 	
 .home {
 	max-width: 70px;
