@@ -11,28 +11,17 @@ permalink: blog/
 <article class="blog">
 	
 	<header>
-	{% for post in paginator.posts %}
-		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		{{ post.date | date: "%b %d, %Y" }}
-		{{ post.content }}
-	{% endfor %}
+		<h1><a href="{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h1>
+		{{ post.date | date: "%B %d, %Y" }}
 	</header>
 	
-	<center>
-	<aside class="pagination">
+	{{ site.posts[0].content }}
 	
-	{% if paginator.previous_page %}
-    		<a href="/page{{paginator.previous_page}}" class="older">Older</a  
-   {% else %}
-   		<span class="older">older</span>
-	{% endif %}
-  			<span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
-  	{% if paginator.next_page %}
-    		<a href="/page{{paginator.next_page}}" class="newer">Newer</a>
-	{% else %}
-   		<span class="newer">newer</span>
-	{% endif %}
-  
-	</aside>
-	</center>
-	</article>
+</article>	
+
+<center>
+<aside class="pagination">
+	Previous: <a href="{{ site.posts[0].previous.url }}">{{ site.posts[0].previous.title }}</a>
+</aside>
+</center>
+	
