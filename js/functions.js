@@ -18,7 +18,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-65","0"]
+   		position: ["-85","0"]
 		});
 		
 		$(".contact").simpletip({
@@ -26,7 +26,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-65","0"]
+   		position: ["-85","0"]
 		});	
 
    
@@ -35,7 +35,7 @@ $(document).ready(function (){
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
-   		position: ["-65","0"]
+   		position: ["-85","0"]
 		});
 
 });

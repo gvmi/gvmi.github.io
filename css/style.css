@@ -358,12 +358,14 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 .tooltip{
    position: absolute;
    width: 66px;
+   height: 35px;
    top: 0;
    left: 0;
    z-index: 3;
    font-size: 14px;
    font-family: 'Lora', Georgia, serif;
    font-style: italic;
+   text-align: center;
    color: #fff;
  	padding: 9px;
 	background: rgba(0, 0, 0, 0.5);
