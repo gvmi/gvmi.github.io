@@ -386,6 +386,10 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	box-shadow: #F0E6ED 1px 1px 1px;	
 	}
 
+#disqus_thread{
+	margin-top: 20px;
+	}
+
 /* print styles
 -------------------------------------------------------------------------------*/
 @media print {

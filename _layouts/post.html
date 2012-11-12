@@ -15,10 +15,9 @@ comments: true
 
   {{ content }}
   
-  <br><br>
   <section>
   {% if page.comments %}
-   <div id="disqus_thread"></div>
+   <div id="disqus_thread">
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'sharriechen'; // required: replace example with your forum shortname
@@ -30,7 +29,7 @@ comments: true
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
-
-  {% endif %}
-  </section>
+	</div>
+	{% endif %}
+	</section>
 </article>
