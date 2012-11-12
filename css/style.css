@@ -182,6 +182,10 @@ body {
 	background: #fff url('../images/home2.png') no-repeat center top;
 	}
 	
+#time {
+	text-transform: uppercase;
+	}
+	
 #teatime {
   	width: 100%;	
   	margin: 0 auto;
