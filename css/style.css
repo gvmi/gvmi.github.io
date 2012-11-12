@@ -281,7 +281,7 @@ nav {
 	}
 
 .blogico {
-	background: url('../images/blog1.png') no-repeat center top;
+	background: #fff url('../images/blog1.png') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -309,11 +309,11 @@ nav {
 
 .blogico:hover {	
 	color: #ffbc9b;
-	background: url('../images/blog2.png') no-repeat center top;	
+	background: #fff url('../images/blog2.png') no-repeat center top;	
 	}
 	
 .github {
-	background: url('../images/github1.png') no-repeat center top;
+	background: #fff url('../images/github1.png') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -341,11 +341,11 @@ nav {
 
 .github:hover {	
 	color: #ffbc9b;
-	background: url('../images/github2.png') no-repeat center top;
+	background: #fff url('../images/github2.png') no-repeat center top;
 	}
 	
 .contact {
-	background: url('../images/contact1.png') no-repeat center top;
+	background: #fff url('../images/contact1.png') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -373,7 +373,7 @@ nav {
 
 .contact:hover {	
 	color: #ffbc9b;
-	background: url('../images/contact2.png') no-repeat center top;
+	background: #fff url('../images/contact2.png') no-repeat center top;
 	}	
 
 nav ol li {
