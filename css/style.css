@@ -356,6 +356,7 @@ ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
 .tooltip{
+	display: none;
    position: absolute;
    top: 0;
    left: 0;
@@ -364,8 +365,10 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
    font-family: 'Lora', Georgia, serif;
    font-style: italic;
    text-align: center;
+   line-height: 0px;
    color: #fff;
  	padding: 9px;
+ 	white-space: nowrap;
 	background: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 0px 6px 6px 6px;
 	-moz-border-radius: 0px 6px 6px 6px;
