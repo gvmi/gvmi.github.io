@@ -71,7 +71,6 @@ pre {
 	white-space: pre-wrap; /* CSS 2.1 */
 	white-space: pre-line; /* CSS 3 (and 2.1) */
 	word-wrap: break-word; /* IE */
-	display: inline-block;
 }
 
 input[type="radio"] {vertical-align: text-bottom;}
@@ -369,6 +368,7 @@ a:hover {
 	background-color: #fff;
 	padding: 0px 3px 0px 3px;
 	margin: 0px;
+	display: inline-block;
 	}
 
 code {
@@ -392,6 +392,7 @@ code {
 	margin-left: 15px;
 	margin-bottom: 15px;
 	margin-bottom: 8px;
+	display: inline-block;
 	}
 
 code b{
