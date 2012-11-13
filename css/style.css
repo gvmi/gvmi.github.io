@@ -370,13 +370,13 @@ a:hover {
 	}
 
 .major {
-	font-family: 12px "Courier New",
+	font-family: 10px "Courier New",
              		Courier,
             		"Lucida Console",
              		Monaco,
              		"Nimbus Mono L",
              		monospace;
-	width: 500px;
+	width: 650px;
 	color: #333;
 	font-weight: normal;
 	-webkit-border-radius: 0px 8px 0px 8px;
