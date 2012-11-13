@@ -13,7 +13,7 @@ OKAY, after a million **cheap** commits and screw-ups, the site is finally ready
 		}  
 		return joins;  
 	}
-</pre></code>
+</code></pre>
 
 
 <blockquote>
