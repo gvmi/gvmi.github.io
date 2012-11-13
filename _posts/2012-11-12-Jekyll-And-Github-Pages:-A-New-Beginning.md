@@ -14,6 +14,6 @@ OKAY, after a million **cheap** commits and screw-ups, the site is finally ready
 }
 </code></pre>
 
-<blockquote class="one">
+<blockquote>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget ante dapibus lorem rutrum adipiscing sed vel sapien. Etiam pellentesque dolor lacinia justo tempus posuere. 
 </blockquote>
