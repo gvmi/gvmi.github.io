@@ -41,7 +41,7 @@ ul {list-style: none;}
 blockquote, q {quotes: none; 	
 	margin: 10px;
 	padding: 20px;
-	background-color: #f1f1f1;
+	background-color: #fff;
 	display: inline-block;
 	border-left: 5px solid #ffbc9b;
 	}
@@ -394,8 +394,8 @@ a:hover {
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	border: 1px solid #fff;
-	background-color: #f1f1f1;
+	border: 1px solid #ffbc9b;
+	background-color: #fff;
 	padding: 20px;
 	display: inline-block;
 	margin-left: 15px;
