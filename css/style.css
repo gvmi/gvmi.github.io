@@ -370,13 +370,13 @@ a:hover {
 	}
 
 .major {
-	font-family: 10px "Courier New",
+	font-family: 9px "Courier New",
              		Courier,
             		"Lucida Console",
              		Monaco,
              		"Nimbus Mono L",
              		monospace;
-	width: 635px;
+	width: 625px;
 	color: #333;
 	font-weight: normal;
 	-webkit-border-radius: 0px 8px 0px 8px;
@@ -392,7 +392,9 @@ a:hover {
 	background-color: #f1f1f1;
 	padding: 20px;
 	display: inline-block;
-	margin: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-bottom: 8px;
 	}
 
 ​.major b{
@@ -407,8 +409,10 @@ pre {
 	word-wrap: break-word;
 	}​
 
-blockquote {
-	margin: 15px;
+blockquote.one {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-bottom: 8px;
 	padding: 20px;
 	background-color: #f1f1f1;
 	display: inline-block;
