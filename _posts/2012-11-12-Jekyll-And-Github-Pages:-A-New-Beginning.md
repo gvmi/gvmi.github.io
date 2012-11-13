@@ -9,7 +9,7 @@ OKAY, after a million **cheap** commits and screw-ups, the site is finally ready
 				Hello, I like pie.
 				=)
 
-<pre><code>
+<pre><code class="major">
     public SelectOption[] getJoinOptions() {  
         SelectOption[] joins = new SelectOption[]{};  
         joins.add(new SelectOption('','--None--'));  
