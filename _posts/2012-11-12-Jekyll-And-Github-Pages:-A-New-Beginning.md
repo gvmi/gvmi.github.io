@@ -9,9 +9,21 @@ OKAY, after a million **cheap** commits and screw-ups, the site is finally ready
 				Hello, I like pie.
 				=)
 
+<pre><code>
+    public SelectOption[] getJoinOptions() {  
+        SelectOption[] joins = new SelectOption[]{};  
+        joins.add(new SelectOption('','--None--'));  
+        for (Join__c j : [select id, name, level_one__r.name, level_two__r.name from Join__c where isdeleted = false order by level_one__r.name]) {  
+            joins.add(new SelectOption(j.id, j.name + ' (' + j.level_one__r.name + ', ' + j.level_two__r.name + ')'));  
+        }  
+        return joins;  
+    }
+</code></pre>
+
 <blockquote>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget ante dapibus lorem rutrum adipiscing sed vel sapien. Etiam pellentesque dolor lacinia justo tempus posuere. 
 </blockquote>
+
 
 > Markdown quote
 > Fusce sit amet eros vel nulla imperdiet

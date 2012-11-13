@@ -347,6 +347,74 @@ a:hover {
 	color: #C8C8A9;
 	}
 
+.minor {
+	font-family: 12px "Courier New",
+						Courier,
+						"Lucida Console",
+						Monaco,
+						"Nimbus Mono L",
+						monospace;
+	color: #333;
+	font-weight: bold;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	padding: 0px 3px 0px 3px;
+	display: inline-block;
+	margin: 0px;
+	}
+
+.major {
+	font-family: 12px "Courier New",
+             		Courier,
+            		"Lucida Console",
+             		Monaco,
+             		"Nimbus Mono L",
+             		monospace;
+	width: 500px;
+	color: #333;
+	font-weight: normal;
+	-webkit-border-radius: 0px 8px 0px 8px;
+	-moz-border-radius: 0px 8px 0px 8px;
+	border-radius: 0px 8px 0px 8px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;    
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ffbc9b;
+	background-color: #f1f1f1;
+	padding: 20px;
+	display: inline-block;
+	margin: 15px;
+	}
+
+​.major b{
+	font-weight: bold;
+	color: #de0025;
+	}
+
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	}​
+
+blockquote {
+	margin: 15px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	display: inline-block;
+	border-left: 5px solid #ffbc9b;
+	}
+
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
 ::selection {background: #fcd700; color: #fff; text-shadow: none;} 
 
