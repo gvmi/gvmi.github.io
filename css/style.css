@@ -376,12 +376,7 @@ a:hover {
 	}
 
 .major {
-	font-family: 9px "Courier New",
-             		Courier,
-            		"Lucida Console",
-             		Monaco,
-             		"Nimbus Mono L",
-             		monospace;
+	font-family: 9px "Courier New", monospace;
 	width: 625px;
 	color: #333;
 	font-weight: normal;
