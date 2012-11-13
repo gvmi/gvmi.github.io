@@ -354,7 +354,7 @@ a:hover {
 	}
 
 .minor {
-	font-family: 12px 'Droid Sans Mono', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
 	color: #333;
 	font-weight: bold;
 	-webkit-border-radius: 3px;
@@ -371,7 +371,8 @@ a:hover {
 	}
 
 code {
-	font-family: 12px 'Droid Sans Mono', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
+	font-size: 20px;
 	width: 625px;
 	color: #333;
 	font-weight: normal;
