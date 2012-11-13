@@ -6,13 +6,13 @@ OKAY, after a million **cheap** commits and screw-ups, the site is finally ready
 <h2>hello heading 2</h2>
 
 <pre><code>public SelectOption[] getJoinOptions() {  
-	SelectOption[] joins = new SelectOption[]{};  
-		joins.add(new SelectOption('','--None--'));  
-		for (Join__c j : [select id, name, level_one__r.name, level_two__r.name from Join__c where isdeleted = false order by level_one__r.name]) {  
-			joins.add(new SelectOption(j.id, j.name + ' (' + j.level_one__r.name + ', ' + j.level_two__r.name + ')'));  
-		}  
-		return joins;  
-	}
+				SelectOption[] joins = new SelectOption[]{};  
+						joins.add(new SelectOption('','--None--'));  
+						for (Join__c j : [select id, name, level_one__r.name, level_two__r.name from Join__c where isdeleted = false order by level_one__r.name]) {  
+							joins.add(new SelectOption(j.id, j.name + ' (' + j.level_one__r.name + ', ' + j.level_two__r.name + ')'));  
+						}  
+						return joins;  
+					}
 </code></pre>
 
 
