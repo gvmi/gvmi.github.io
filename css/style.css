@@ -370,7 +370,7 @@ a:hover {
 	margin: 0px;
 	}
 
-.major {
+code {
 	font-family: 12px 'Droid Sans Mono', sans-serif;
 	width: 625px;
 	color: #333;
@@ -393,7 +393,7 @@ a:hover {
 	margin-bottom: 8px;
 	}
 
-​.major b{
+code b{
 	font-weight: bold;
 	color: #de0025;
 	}
