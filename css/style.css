@@ -354,12 +354,7 @@ a:hover {
 	}
 
 .minor {
-	font-family: 12px "Courier New",
-						Courier,
-						"Lucida Console",
-						Monaco,
-						"Nimbus Mono L",
-						monospace;
+	font-family: 12px 'Droid Sans Mono', sans-serif;
 	color: #333;
 	font-weight: bold;
 	-webkit-border-radius: 3px;
@@ -376,7 +371,7 @@ a:hover {
 	}
 
 .major {
-	font-family: 9px "Courier New", monospace;
+	font-family: 12px 'Droid Sans Mono', sans-serif;
 	width: 625px;
 	color: #333;
 	font-weight: normal;
