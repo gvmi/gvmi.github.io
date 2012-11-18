@@ -29,7 +29,7 @@ article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 -------------------------------------------------------------------------------*/
 img,
 object,
-embed {max-width: 100%;}
+embed {max-width: 720px; height: auto;}
 
 /* force a vertical scrollbar to prevent a jumpy page */
 html {overflow-y: scroll;}
