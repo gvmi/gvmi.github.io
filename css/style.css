@@ -236,6 +236,7 @@ article h1 {
 article	h1 strong {display: block; font-size: 24px;}
 	
 article	h1 a {text-decoration: none; color: #000;}
+article	h1 a:hover {text-decoration: none; color: #ffbc9b;}
 
 article h2 {
 	font-family: 'Lora', Georgia, serif;
