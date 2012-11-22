@@ -17,4 +17,4 @@ layout: post
 ##laptops! everywhere!
 
 <br>
-After an hour of the LAN party we went to watch Skyfall. It was crazy packed and we ended up sitting in the front, but oh well! I had quite a nice birthday this year despite the pouring rain.
+After an hour of the LAN party we went to watch Skyfall (it was crazy packed and we ended up sitting in the front, but oh well). I had a nice birthday this year despite the pouring rain!

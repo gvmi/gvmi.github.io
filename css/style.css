@@ -185,7 +185,8 @@ body {
 	}
 	
 .home:hover {
-	background: #fff url('../images/home3.png') no-repeat center top;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
 	}
 	
 #time {
@@ -270,7 +271,8 @@ nav {
 	}
 
 .blog:hover {	
-	background: #fff url('../images/blog2.png') no-repeat center top;	
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */	
 	}
 	
 .github {
@@ -289,7 +291,8 @@ nav {
 	}
 
 .github:hover {	
-	background: #fff url('../images/github2.png') no-repeat center top;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
 	}
 	
 .contact {
@@ -308,7 +311,8 @@ nav {
 	}
 
 .contact:hover {	
-	background: #fff url('../images/contact2.png') no-repeat center top;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */
 	}	
 
 nav ol li {
