@@ -1,3 +1,2 @@
-sharriechen.github.com
-
-Personal website of Sharrie Chen.
+#Personal website of Sharrie Chen
+[sharriechen.github.com](sharriechen.github.com)
