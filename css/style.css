@@ -160,6 +160,10 @@ body {
 	background-color: none;
 	}
 	
+p {
+	margin: 10px 0 10px 0;
+	}
+	
 .home {
 	background: #fff url('../images/home1.png') no-repeat center top;
 	display: block;
