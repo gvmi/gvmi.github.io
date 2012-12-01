@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 <img src="http://i.imgur.com/RooiY.jpg">
 ##test blob of caption text
 This is normal **text** and I like to pet *bunnies*. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc libero, imperdiet non molestie vel, ullamcorper id dui. Nam luctus, justo sit amet lacinia semper, justo est tincidunt est, ac fermentum orci augue id sem. Etiam in gravida enim. Sed venenatis ultricies augue, non mollis nisl lobortis ut. Nunc leo neque, tempor id placerat eu, aliquet ut lacus. Morbi vestibulum ullamcorper purus, a interdum enim lacinia sit amet. Nullam semper augue sit amet arcu tempor facilisis. Praesent in purus nulla, blandit pellentesque orci. Duis pellentesque tempor ullamcorper.
