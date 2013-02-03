@@ -5,8 +5,8 @@
 /* trigger when page is ready */
 $(document).ready(function (){
    
-		$(".blog").simpletip({
-   		content: 'blog',
+		$(".info").simpletip({
+   		content: 'info',
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,
@@ -21,8 +21,8 @@ $(document).ready(function (){
    		position: ["0","0"]
 		});
 		
-		$(".contact").simpletip({
-   		content: 'contact',
+		$(".flickr").simpletip({
+   		content: 'flickr',
    		showEffect: 'slide',
    		hideEffect: 'fade',
    		fixed: true,

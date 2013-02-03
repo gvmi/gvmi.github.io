@@ -132,7 +132,7 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 
 body {
-	background: #fff url('../images/bg4.png') repeat;	
+	background: #fff url('../images/bg2.png') repeat;	
 	font-family: 'Lato', Arial, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
@@ -152,14 +152,15 @@ body {
 
 .main {
 	width: 80%;	
-	max-width: 720px;
+	max-width: 620px;
 	margin: 0 auto;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 75px;
 	padding: 10px 30px 30px 30px;
 	background-color: none;
+	text-align: center;
 	}
-	
+
 p {
 	margin: 10px 0 10px 0;
 	}
@@ -193,15 +194,13 @@ p {
 #teatime {
   	width: 100%;	
   	margin: 0 auto;
-	margin-top: 130px;
-	margin-bottom: -8px;
-	padding-top: 5%;
+	margin-top: 75px;
 	max-width: 460px;
-  	z-index: 100;
+	z-index: 100;
 	font-family: 'BenchNine', Arial, sans-serif;
 	text-transform: uppercase;
   	font-size: 98px;
-	color: #ffbc9b;
+	color: #192f45;
 	text-align: center;
 	cursor: default;
 	transition: color 1s ease;
@@ -218,7 +217,7 @@ p {
 	}
 
 #teatime:hover{
-	color: #C8C8A9;
+	color: #24586E;
 	}
 	
 article h1 {
@@ -249,14 +248,14 @@ body, select, input, textarea {color: #333;}
 
 nav {
 	max-width: 450px;
-	max-height: 600px;
-	margin-top: 170px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: -25px;
+	z-index: 1000;
 	}
 
-.blog {
-	background: #fff url('../images/blog.png') no-repeat center top;
+.info {
+	background: #fff url('../images/info.jpg') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -272,7 +271,7 @@ nav {
 	}
 	
 .github {
-	background: #fff url('../images/github.png') no-repeat center top;
+	background: #fff url('../images/projects.jpg') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -286,8 +285,8 @@ nav {
 	box-shadow: #F0E6ED 1px 1px 1px;	
 	}
 	
-.contact {
-	background: #fff url('../images/contact.png') no-repeat center top;
+.flickr {
+	background: #fff url('../images/photo.jpg') no-repeat center top;
 	display: block;
 	float: left;
 	margin: 5px;
@@ -330,7 +329,7 @@ nav ol li a:hover {
 	}
 
 a {
-	color: #ffbc9b;
+	color: #2b4f6f;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -340,7 +339,7 @@ a {
 	}
 
 a:hover {
-	color: #C8C8A9;
+	color: #2a465b;
 	}
 
 .minor {
