@@ -161,6 +161,23 @@ body {
 	text-align: center;
 	}
 
+.infomain {
+	width: 80%;	
+	max-width: 620px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 75px;
+	padding: 40px;
+	background-color: #ffffff;
+	text-align: center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;		
+	}
+
 p {
 	margin: 10px 0 10px 0;
 	}
@@ -250,7 +267,7 @@ nav {
 	max-width: 450px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: -25px;
+	margin-top: 100px;
 	z-index: 1000;
 	}
 
@@ -423,12 +440,13 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	max-width: 500px;
 	text-transform: uppercase;
 	background-color: #fff;
-	-webkit-border-radius: 0px 35px 0px 35px;
+/*	-webkit-border-radius: 0px 35px 0px 35px;
 	-moz-border-radius: 0px 35px 0px 35px;
 	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
+	*/
 	}
 
 #disqus_thread{
