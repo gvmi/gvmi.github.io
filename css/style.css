@@ -158,7 +158,6 @@ body {
 	margin-top: 75px;
 	padding: 10px 30px 30px 30px;
 	background-color: none;
-	text-align: center;
 	}
 
 .infomain {
@@ -177,6 +176,22 @@ body {
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;		
 	}
+
+.projectmain {
+	width: 80%;	
+	max-width: 620px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 5px;
+	padding-left: 10px;
+	background-color: #ffffff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;		
+	}	
 
 p {
 	margin: 10px 0 10px 0;
