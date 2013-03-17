@@ -159,19 +159,20 @@ body {
 
 .infomain {
 	width: 80%;	
-	max-width: 620px;
+	max-width: 670px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding: 40px;
-	background-color: #ffffff;
-	text-align: left;
+/*	margin-bottom: 20px;
+	margin-top: 20px; */
+	padding: 20px;
+	text-align: center;
+/*	background-color: #ffffff;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;		
+	box-shadow: #F0E6ED 1px 1px 1px;	
+	*/	
 	}
 
 p {
@@ -182,9 +183,10 @@ p {
   	width: 100%;	
   	margin: 0 auto;
 	width: 100%
-	padding: 100px 0 25px 0;
     float: left;
-    margin: 20px 0 0px 0;
+    margin: 55px 0 0px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #fff;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
@@ -196,12 +198,13 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     z-index: 1;
 
-	font-family: 'Lora', serif;
-  	font-size: 56px;
+	font-family: 'Lato', sans-serif;
+  	font-size: 42px;
 	color: #24586E;
 	text-align: center;
-	text-transform: lowercase;
-	font-style: italic;
+	text-transform: uppercase;
+	font-style: none;
+	font-weight: 300;
 	cursor: default;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease; 
@@ -255,65 +258,67 @@ nav {
 	}
 
 .instagram {
-	background: #fff url('../images/instagram.jpg') no-repeat center top;
+	background: #fff url('../images/instagram.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
-	height: 130px;
-		line-height: 200px;
-	-webkit-border-radius: 0px 35px 0px 35px;
-	-moz-border-radius: 0px 35px 0px 35px;
-	border-radius: 0px 35px 0px 35px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 25px 0px 25px;
+	-moz-border-radius: 0px 25px 0px 25px;
+	border-radius: 0px 25px 0px 25px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;	
 	}
 
 .twitter {
-	background: #fff url('../images/twitter.jpg') no-repeat center top;
+	background: #fff url('../images/twitter.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
-	height: 130px;
-		line-height: 200px;
-	-webkit-border-radius: 0px 35px 0px 35px;
-	-moz-border-radius: 0px 35px 0px 35px;
-	border-radius: 0px 35px 0px 35px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 25px 0px 25px;
+	-moz-border-radius: 0px 25px 0px 25px;
+	border-radius: 0px 25px 0px 25px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
+	box-shadow: #F0E6ED 1px 1px 1px;
 	}
 	
 .github {
-	background: #fff url('../images/projects.jpg') no-repeat center top;
+	background: #fff url('../images/projects.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
-	height: 130px;
-	-webkit-border-radius: 0px 35px 0px 35px;
-	-moz-border-radius: 0px 35px 0px 35px;
-	border-radius: 0px 35px 0px 35px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 25px 0px 25px;
+	-moz-border-radius: 0px 25px 0px 25px;
+	border-radius: 0px 25px 0px 25px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
+	box-shadow: #F0E6ED 1px 1px 1px;
 	}
 	
 .flickr {
-	background: #fff url('../images/photo.jpg') no-repeat center top;
+	background: #fff url('../images/photo.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
-	height: 130px;
-	-webkit-border-radius: 0px 35px 0px 35px;
-	-moz-border-radius: 0px 35px 0px 35px;
-	border-radius: 0px 35px 0px 35px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 25px 0px 25px;
+	-moz-border-radius: 0px 25px 0px 25px;
+	border-radius: 0px 25px 0px 25px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;		
+	box-shadow: #F0E6ED 1px 1px 1px;	
 	}	
 
 
