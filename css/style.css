@@ -150,13 +150,10 @@ body {
 	border: 13px solid #F3F4E5;
 	}
 
-.main {
-	width: 80%;	
+.buttons {
+	width: 100%;	
 	max-width: 620px;
 	margin: 0 auto;
-	margin-bottom: 20px;
-	margin-top: 75px;
-	padding: 10px 30px 30px 30px;
 	background-color: none;
 	}
 
@@ -165,74 +162,44 @@ body {
 	max-width: 620px;
 	margin: 0 auto;
 	margin-bottom: 20px;
-	margin-top: 75px;
+	margin-top: 20px;
 	padding: 40px;
 	background-color: #ffffff;
-	text-align: center;
+	text-align: left;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 0px 35px 0px 35px;
 	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;		
 	}
-
-.projectmain {
-	width: 80%;	
-	max-width: 620px;
-	margin: 0 auto;
-	margin-top: 15px;
-	padding: 5px;
-	padding-left: 10px;
-	background-color: #ffffff;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;		
-	}	
 
 p {
 	margin: 10px 0 10px 0;
 	}
 	
-.home {
-	background: #fff url('../images/home.png') no-repeat center top;
-	display: block;
-	float: right;
-	margin-right: 20px;
-	width: 75px;
-	height: 75px;
-	-webkit-border-radius: 0px 15px 0px 15px;
-	-moz-border-radius: 0px 15px 0px 15px;
-	border-radius: 0px 15px 0px 15px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;		
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	}
-
-	
-#time {
-	text-transform: uppercase;
-	}
-	
 #teatime {
   	width: 100%;	
   	margin: 0 auto;
-	margin-top: 75px;
-	max-width: 460px;
-	z-index: 100;
+	width: 100%
+	padding: 100px 0 25px 0;
+    float: left;
+    margin: 20px 0 0px 0;
+    background-color: #fff;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.35);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    z-index: 1;
+
 	font-family: 'BenchNine', Arial, sans-serif;
 	text-transform: uppercase;
-  	font-size: 98px;
-	color: #192f45;
+  	font-size: 76px;
+	color: #24586E;
 	text-align: center;
 	cursor: default;
 	transition: color 1s ease;
@@ -249,13 +216,12 @@ p {
 	}
 
 #teatime:hover{
-	color: #24586E;
+	color: #192f45;
 	}
 	
 article h1 {
-	font-family: 'Lato', Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin: 10px 0 2px 0;
@@ -279,16 +245,33 @@ article h2 {
 body, select, input, textarea {color: #333;}
 
 nav {
-	max-width: 450px;
+	max-width: 620px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 100px;
+	margin-top: 0px;
 	z-index: 1000;
+	padding-left: 10px;
 	}
 
-.info {
-	background: #fff url('../images/info.jpg') no-repeat center top;
-	display: block;
+.instagram {
+	background: #fff url('../images/instagram.jpg') no-repeat center top;
+	display: inline;
+	float: left;
+	margin: 5px;
+	width: 140px;
+	height: 130px;
+		line-height: 200px;
+	-webkit-border-radius: 0px 35px 0px 35px;
+	-moz-border-radius: 0px 35px 0px 35px;
+	border-radius: 0px 35px 0px 35px;
+	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
+	-moz-box-shadow: #F0E6ED 1px 1px 1px;
+	box-shadow: #F0E6ED 1px 1px 1px;	
+	}
+
+.twitter {
+	background: #fff url('../images/twitter.jpg') no-repeat center top;
+	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
@@ -304,7 +287,7 @@ nav {
 	
 .github {
 	background: #fff url('../images/projects.jpg') no-repeat center top;
-	display: block;
+	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
@@ -319,7 +302,7 @@ nav {
 	
 .flickr {
 	background: #fff url('../images/photo.jpg') no-repeat center top;
-	display: block;
+	display: inline;
 	float: left;
 	margin: 5px;
 	width: 140px;
@@ -331,6 +314,8 @@ nav {
 	-moz-box-shadow: #F0E6ED 1px 1px 1px;
 	box-shadow: #F0E6ED 1px 1px 1px;		
 	}	
+
+
 
 nav ol li {
 	display: inline-block; 

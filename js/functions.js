@@ -5,14 +5,20 @@
 /* trigger when page is ready */
 $(document).ready(function (){
    
-      $(".info").simpletip({
-         content: 'info',
+      $(".twitter").simpletip({
+         content: 'twitter',
          showEffect: 'slide',
          hideEffect: 'fade',
          fixed: true,
          position: ["0","0"]
       });   
-   
+      $(".instagram").simpletip({
+         content: 'instagram',
+         showEffect: 'slide',
+         hideEffect: 'fade',
+         fixed: true,
+         position: ["0","0"]
+      });   
       $(".github").simpletip({
          content: 'github',
          showEffect: 'slide',
