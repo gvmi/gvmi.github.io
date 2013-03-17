@@ -196,11 +196,12 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     z-index: 1;
 
-	font-family: 'BenchNine', Arial, sans-serif;
-	text-transform: uppercase;
-  	font-size: 76px;
+	font-family: 'Lora', serif;
+  	font-size: 56px;
 	color: #24586E;
 	text-align: center;
+	text-transform: lowercase;
+	font-style: italic;
 	cursor: default;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease; 
