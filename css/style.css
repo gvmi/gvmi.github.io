@@ -204,8 +204,6 @@ p {
 	text-align: center;
 	text-transform: none;
 	font-style: none;
-
-	cursor: default;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease; 
 	-webkit-transition: color 1s ease; 
@@ -216,7 +214,11 @@ p {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	text-shadow: 0.05em 0.04em 0em #fff;
+	text-shadow: 0.05em 0.04em 0em #fff,
+	0 0.125em 0 #fff,
+	0 0.188px 0 #fff,
+	0 0.250px 0 #fff,
+	0 0.313px 0 #fff;
 	-webkit-box-shadow: #eee 1px 1px 1px;
 	-moz-box-shadow: #eee 1px 1px 1px;
 	box-shadow: #eee 1px 1px 1px;
