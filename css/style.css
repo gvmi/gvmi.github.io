@@ -198,13 +198,13 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     z-index: 1;
 
-	font-family: 'Lato', sans-serif;
-  	font-size: 42px;
+	font-family: 'Cedarville Cursive', cursive;
+  	font-size: 52px;
 	color: #24586E;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: none;
 	font-style: none;
-	font-weight: 300;
+
 	cursor: default;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease; 
@@ -217,6 +217,9 @@ p {
 	-ms-user-select: none;
 	user-select: none;
 	text-shadow: 0.05em 0.04em 0em #fff;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;
 	}
 
 #teatime:hover{
@@ -249,7 +252,7 @@ article h2 {
 body, select, input, textarea {color: #333;}
 
 nav {
-	max-width: 620px;
+	max-width: 450px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
@@ -258,71 +261,104 @@ nav {
 	}
 
 .instagram {
-	background: #fff url('../images/instagram.jpg') no-repeat center;
+	background: #fff url('../images/instagramsmall.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
-	width: 140px;
+	width: 50px;
 	height: 50px;
 	line-height: 200px;
-	-webkit-border-radius: 0px 25px 0px 25px;
-	-moz-border-radius: 0px 25px 0px 25px;
-	border-radius: 0px 25px 0px 25px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 2px solid;
 	}
 
 .twitter {
-	background: #fff url('../images/twitter.jpg') no-repeat center;
+	background: #fff url('../images/twittersmall.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
-	width: 140px;
+	width: 50px;
 	height: 50px;
 	line-height: 200px;
-	-webkit-border-radius: 0px 25px 0px 25px;
-	-moz-border-radius: 0px 25px 0px 25px;
-	border-radius: 0px 25px 0px 25px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 2px solid;
 	}
 	
 .github {
-	background: #fff url('../images/projects.jpg') no-repeat center;
+	background: #fff url('../images/githubsmall.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
-	width: 140px;
+	width: 50px;
 	height: 50px;
 	line-height: 200px;
-	-webkit-border-radius: 0px 25px 0px 25px;
-	-moz-border-radius: 0px 25px 0px 25px;
-	border-radius: 0px 25px 0px 25px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 2px solid;
 	}
 	
 .flickr {
-	background: #fff url('../images/photo.jpg') no-repeat center;
+	background: #fff url('../images/flickrsmall.jpg') no-repeat center;
 	display: inline;
 	float: left;
 	margin: 5px;
-	width: 140px;
+	width: 50px;
 	height: 50px;
 	line-height: 200px;
-	-webkit-border-radius: 0px 25px 0px 25px;
-	-moz-border-radius: 0px 25px 0px 25px;
-	border-radius: 0px 25px 0px 25px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;		
+	border: #fff 2px solid;
 	}	
-
-
-
+.linkedin {
+	background: #fff url('../images/linkedinsmall.jpg') no-repeat center;
+	display: inline;
+	float: left;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;		
+	border: #fff 2px solid;
+	}
+.facebook {
+	background: #fff url('../images/facebooksmall.jpg') no-repeat center;
+	display: inline;
+	float: left;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	line-height: 200px;
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;		
+	border: #fff 2px solid;
+	}
 nav ol li {
 	display: inline-block; 
 	padding-right: 30px;

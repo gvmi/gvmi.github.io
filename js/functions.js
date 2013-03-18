@@ -10,21 +10,21 @@ $(document).ready(function (){
          showEffect: 'slide',
          hideEffect: 'fade',
          fixed: true,
-         position: ["0","0"]
+         position: ["0","58"]
       });   
       $(".instagram").simpletip({
          content: 'instagram',
          showEffect: 'slide',
          hideEffect: 'fade',
          fixed: true,
-         position: ["0","0"]
+         position: ["0","58"]
       });   
       $(".github").simpletip({
          content: 'github',
          showEffect: 'slide',
          hideEffect: 'fade',
          fixed: true,
-         position: ["0","0"]
+         position: ["0","58"]
       });
       
       $(".flickr").simpletip({
@@ -32,10 +32,30 @@ $(document).ready(function (){
          showEffect: 'slide',
          hideEffect: 'fade',
          fixed: true,
-         position: ["0","0"]
+         position: ["0","58"]
       });   
 
-   
+      $(".tumblr").simpletip({
+         content: 'tumblr',
+         showEffect: 'slide',
+         hideEffect: 'fade',
+         fixed: true,
+         position: ["0","58"]
+      });   
+      $(".linkedin").simpletip({
+         content: 'linkedin',
+         showEffect: 'slide',
+         hideEffect: 'fade',
+         fixed: true,
+         position: ["0","58"]
+      }); 
+      $(".facebook").simpletip({
+         content: 'facebook',
+         showEffect: 'slide',
+         hideEffect: 'fade',
+         fixed: true,
+         position: ["0","58"]
+      });    
       $(".home").simpletip({
          content: 'home',
          showEffect: 'slide',
