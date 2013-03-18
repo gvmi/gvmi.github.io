@@ -159,12 +159,12 @@ body {
 
 .infomain {
 	width: 80%;	
-	max-width: 670px;
+	max-width: 675px;
 	margin: 0 auto;
 /*	margin-bottom: 20px;
 	margin-top: 20px; */
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 /*	background-color: #ffffff;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -252,7 +252,7 @@ article h2 {
 body, select, input, textarea {color: #333;}
 
 nav {
-	max-width: 450px;
+	max-width: 400px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
