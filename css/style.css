@@ -184,25 +184,27 @@ p {
   	margin: 0 auto;
 	width: 100%
     float: left;
-    margin: 55px 0 0px 0;
+    margin: 165px 0 0px 0;
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #fff;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
     /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.30);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     z-index: 1;
 
-	font-family: 'Cedarville Cursive', cursive;
-  	font-size: 52px;
+	font-family: 'Arimo', serif;
+	font-weight: 300;
+  	font-size: 45px;
+  	letter-spacing: 0.2em;
 	color: #24586E;
 	text-align: center;
-	text-transform: none;
+	text-transform: uppercase;
 	font-style: none;
 	transition: color 1s ease;
 	-moz-transition: color 1s ease; 
@@ -217,9 +219,6 @@ p {
 	text-shadow: 
 	0 0.0925em 0 #fff,
 	0 0.112em 0 #eee;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;
 	}
 
 #teatime:hover{
@@ -252,7 +251,7 @@ article h2 {
 body, select, input, textarea {color: #333;}
 
 nav {
-	max-width: 400px;
+	max-width: 200px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
