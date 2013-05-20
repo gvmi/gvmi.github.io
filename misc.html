@@ -1,0 +1,9 @@
+---
+layout: default
+title: misc
+permalink: misc/
+---
+
+{% for post in site.categories.misc %}
+	<h1>► {{ post.date | date: "%d %b" }} | <a href="{{ post.url }}">{{ post.title }}</a></h1> 
+{% endfor %}

@@ -1,5 +1,5 @@
 /* 
-	Sharrie Chen @ sharriechen.github.com
+	Sharrie Chen @ sharriechen.com
 	
 	----------------------------------------------------------
 	HTML 5 Reset Code
@@ -29,7 +29,7 @@ article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 -------------------------------------------------------------------------------*/
 img,
 object,
-embed {max-width: 720px; height: auto;}
+embed {max-width: 590px; height: auto;}
 
 /* force a vertical scrollbar to prevent a jumpy page */
 html {overflow-y: scroll;}
@@ -132,48 +132,45 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 
 body {
-	background: #fff url('../images/bg2.png') repeat;	
-	font-family: 'Lato', Arial, sans-serif;
-	font-size: 15px;
+	background: #fff;	
+	font-family: Arial, sans-serif;
+	font-size: 13px;
 	line-height: 1.5;
-   -webkit-font-smoothing: antialiased;
-   text-rendering: optimizeLegibility;
+	text-transform: lowercase;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 	}
 
 .wrapper{
 	
-	max-width: 940px;
+	max-width: 950px;
 	margin: 0 auto;
 	margin-top: 25px;
-	margin-bottom: 25px;
 	background-color: #fff;
-	border: 13px solid #F3F4E5;
+	border-top: 1px solid #eee;
 	}
 
-.buttons {
-	width: 100%;	
-	max-width: 620px;
+.main {
+	width: 100%;
+	max-width: 590px;
 	margin: 0 auto;
-	background-color: none;
-	}
-
-.infomain {
-	width: 80%;	
-	max-width: 675px;
-	margin: 0 auto;
-/*	margin-bottom: 20px;
-	margin-top: 20px; */
-	padding: 20px;
+	margin-bottom: 50px;
+	padding: 0px;
 	text-align: left;
-/*	background-color: #ffffff;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 0px 35px 0px 35px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
-	*/	
+	float: left;
+	padding-right: 20px;
+	border-right: 1px solid #eee;
 	}
+
+.sidebar {
+	width 100%;
+	max-width: 290px; 
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+	float: right;
+	text-align: left;
+}
 
 p {
 	margin: 10px 0 10px 0;
@@ -182,34 +179,17 @@ p {
 #teatime {
   	width: 100%;	
   	margin: 0 auto;
-	width: 100%
     float: left;
-    margin: 165px 0 0px 0;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin: 40px 0 40px 0;
     background-color: #fff;
-    /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(255, 255, 255);
-    /* RGBa with 0.6 opacity */
-    background: rgba(255, 255, 255, 0.30);
-    /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-    z-index: 1;
-
-	font-family: 'Arimo', serif;
-	font-weight: 300;
-  	font-size: 45px;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+  	font-size: 62px;
   	letter-spacing: 0.2em;
-	color: #24586E;
+	color: #000;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: none;
 	font-style: none;
-	transition: color 1s ease;
-	-moz-transition: color 1s ease; 
-	-webkit-transition: color 1s ease; 
-	-o-transition: color 1s ease; 
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -217,17 +197,17 @@ p {
 	-ms-user-select: none;
 	user-select: none;
 	text-shadow: 
-	0 0.0925em 0 #fff,
-	0 0.112em 0 #eee;
+	0 0.0425em 0 #fff,
+	0 0.052em 0 #eee;
 	}
 
 #teatime:hover{
-	color: #4e7883;
+	color: #000;
 	}
 	
 article h1 {
 	font-family: 'Lato', sans-serif;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin: 10px 0 2px 0;
@@ -238,143 +218,51 @@ article	h1 strong {display: block; font-size: 24px;}
 article	h1 a {text-decoration: none; color: #000;}
 article	h1 a:hover {text-decoration: none; color: #ffbc9b;}
 
-article h2 {
+h2 {
 	font-family: 'Lora', Georgia, serif;
 	font-size: 15px;
 	font-style: italic;
 	font-weight: normal;
 	text-transform: none;
-	line-height: 9px;
-	margin: 0 0 15px 0;
-	}
+	line-height: 15px;
+	margin-left: -5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+p{
+
+}
 
 body, select, input, textarea {color: #333;}
 
 nav {
-	max-width: 200px;
+
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 0px;
+	margin-bottom: 20px;
 	z-index: 1000;
-	padding-left: 10px;
+	border-bottom: 1px solid #eee;
 	}
 
-.instagram {
-	background: #fff url('../images/instagramsmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;	
-	border: #fff 2px solid;
-	}
-
-.twitter {
-	background: #fff url('../images/twittersmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;	
-	border: #fff 2px solid;
-	}
-	
-.github {
-	background: #fff url('../images/githubsmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;	
-	border: #fff 2px solid;
-	}
-	
-.flickr {
-	background: #fff url('../images/flickrsmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;		
-	border: #fff 2px solid;
-	}	
-.linkedin {
-	background: #fff url('../images/linkedinsmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;		
-	border: #fff 2px solid;
-	}
-.facebook {
-	background: #fff url('../images/facebooksmall.jpg') no-repeat center;
-	display: inline;
-	float: left;
-	margin: 5px;
-	width: 50px;
-	height: 50px;
-	line-height: 200px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-box-shadow: #eee 1px 1px 1px;
-	-moz-box-shadow: #eee 1px 1px 1px;
-	box-shadow: #eee 1px 1px 1px;		
-	border: #fff 2px solid;
-	}
-nav ol li {
+nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
+	color: #ccc; 
 	}
 
-nav ol li:last-child {
-	padding-right: 0;
+nav ul li:first-child {
+	
 	}
 		
-nav ol li a {
-	text-decoration: none; 
-	font-family: 'Lora', Georgia, serif;
-	font-size: 20px; 
+nav ul li a {
+	text-transform: uppercase;
+	font-family: verdana;
+	font-size: 12px; 
 	letter-spacing: 0px;
 	padding: 5px;
-	font-style: italic;
-	color: #C8C8A9; 
+	font-style: none;
+	color: #ccc; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -382,12 +270,12 @@ nav ol li a {
 	-o-transition: color .4s ease;
 	}
 	
-nav ol li a:hover {
+nav ul li a:hover {
 	color: #525252;
 	}
 
 a {
-	color: #3d6d76;
+	color: #ccc;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -397,8 +285,26 @@ a {
 	}
 
 a:hover {
-	color: #2a465b;
+	color: #333;
 	}
+
+a.links {
+	padding:5px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	display: block;
+	clear:both;
+	color: #ccc;
+	font-family: verdana;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin: 10px 0 10px 0;
+	width: 50%;
+}
+
+a.links:hover {
+	color: #333;
+}
 
 .minor {
 	font-family: 'Droid Sans Mono', sans-serif;
@@ -477,18 +383,21 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
             
 .pagination {
 	margin: 20px 0 0 0;
-	padding: 5px;
-	max-width: 500px;
-	text-transform: uppercase;
+	padding: 12px;
+	max-width: 40%;
+	text-transform: uppercase;	
 	background-color: #fff;
-/*	-webkit-border-radius: 0px 35px 0px 35px;
-	-moz-border-radius: 0px 35px 0px 35px;
-	border-radius: 0px 35px 0px 35px;
-	-webkit-box-shadow: #F0E6ED 1px 1px 1px;
-	-moz-box-shadow: #F0E6ED 1px 1px 1px;
-	box-shadow: #F0E6ED 1px 1px 1px;	
-	*/
 	}
+
+.pagination a{
+	padding: 5px;
+	letter-spacing: 0.2em;
+	color: #555;
+}
+
+.pagination a:hover {
+	color: #777;
+}
 
 #disqus_thread{
 	margin-top: 12px;
