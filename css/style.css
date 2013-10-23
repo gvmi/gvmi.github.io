@@ -281,7 +281,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #969696; 
+	color: #FF847C; 
 	}
 
 nav ul li:first-child {
@@ -295,7 +295,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #969696; 
+	color: #FF847C; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -304,11 +304,11 @@ nav ul li a {
 	}
 	
 nav ul li a:hover {
-	color: #525252;
+	color: #969696;
 	}
 
 a {
-	color: #969696;
+	color: #FF847C;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -318,7 +318,7 @@ a {
 	}
 
 a:hover {
-	color: #333;
+	color: #969696;
 	}
 
 a.links {
@@ -327,7 +327,7 @@ a.links {
 	border-radius: 4px;
 	display: block;
 	clear:both;
-	color: #969696;
+	color: #FF847C;
 	font-family: lato, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -336,7 +336,7 @@ a.links {
 }
 
 a.links:hover {
-	color: #333;
+	color: #969696;
 }
 
 .minor {
