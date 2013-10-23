@@ -133,10 +133,10 @@ button {width: auto; overflow: visible;}
 
 body {
 	background: #fff;	
-	font-family: Arial, sans-serif;
+	font-family: Lato, sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
-	text-transform: lowercase;
+	text-transform: none;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	}
@@ -167,15 +167,48 @@ body {
 	max-width: 290px; 
 	background-color: #fff;
 	padding: 20px;
-	margin-top: 0px;
+	margin-top: -20px;
 	float: right;
 	text-align: left;
+	text-align: justify;
 }
 
 p {
 	margin: 10px 0 10px 0;
 	}
 	
+.projectBox {
+	margin: 0 auto;
+	max-width:85%;
+	background: #ffffff;
+	height: auto;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 5px solid;
+	padding: 5px 25px 5px 25px;
+	line-height: 2em;
+	text-align: justify;
+	color: #333;
+}
+
+.projectBox h1 {
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+.designBox{
+	max-width:125px;
+	width: 100%;
+	height: 125px;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 5px solid;
+	display: inline-block;
+	margin: 5px 5px 20px 5px ;
+}
+
 #teatime {
   	width: 100%;	
   	margin: 0 auto;
@@ -248,7 +281,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #ccc; 
+	color: #969696; 
 	}
 
 nav ul li:first-child {
@@ -257,12 +290,12 @@ nav ul li:first-child {
 		
 nav ul li a {
 	text-transform: uppercase;
-	font-family: verdana;
-	font-size: 12px; 
+	font-family: lato;
+	font-size: 13px; 
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #ccc; 
+	color: #969696; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -275,7 +308,7 @@ nav ul li a:hover {
 	}
 
 a {
-	color: #ccc;
+	color: #969696;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -294,8 +327,8 @@ a.links {
 	border-radius: 4px;
 	display: block;
 	clear:both;
-	color: #ccc;
-	font-family: verdana;
+	color: #969696;
+	font-family: lato, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
 	margin: 10px 0 10px 0;
@@ -363,16 +396,16 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 .tooltip{
 	display: none;
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 3;
-   font-size: 14px;
-   font-family: 'Lora', Georgia, serif;
-   font-style: italic;
-   text-align: center;
-   line-height: 0px;
-   color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	font-size: 14px;
+	font-family: 'Lora', Georgia, serif;
+	font-style: italic;
+	text-align: center;
+	line-height: 0px;
+	color: #fff;
  	padding: 13px;
  	white-space: nowrap;
 	background: rgba(0, 0, 0, 0.5);
