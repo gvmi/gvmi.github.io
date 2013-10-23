@@ -29,6 +29,7 @@ body:after {
 /* line 28, ../sass/lightbox.sass */
 .lightbox .lb-image {
   display: block;
+  max-width: inherit;
   height: auto;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
