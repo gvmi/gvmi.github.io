@@ -253,7 +253,7 @@ article h1 {
 article	h1 strong {display: block; font-size: 24px;}
 	
 article	h1 a {text-decoration: none; color: #000;}
-article	h1 a:hover {text-decoration: none; color: #78A086;}
+article	h1 a:hover {text-decoration: none; color: #999999;}
 
 h2 {
 	font-family: 'Lora', Georgia, serif;
@@ -285,7 +285,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #78A086; 
+	color: #999999; 
 	}
 
 nav ul li:first-child {
@@ -299,7 +299,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #78A086; 
+	color: #999999; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -308,11 +308,11 @@ nav ul li a {
 	}
 	
 nav ul li a:hover {
-	color: #969696;
+	color: #666666;
 	}
 
 a {
-	color: #78A086;
+	color: #999999;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -322,7 +322,7 @@ a {
 	}
 
 a:hover {
-	color: #969696;
+	color: #666666;
 	}
 
 a.links {
@@ -331,7 +331,7 @@ a.links {
 	border-radius: 4px;
 	display: block;
 	clear:both;
-	color: #78A086;
+	color: #999999;
 	font-family: lato, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -340,7 +340,7 @@ a.links {
 }
 
 a.links:hover {
-	color: #969696;
+	color: #666666;
 }
 
 .minor {
