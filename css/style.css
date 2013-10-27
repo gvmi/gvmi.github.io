@@ -141,6 +141,11 @@ body {
     text-rendering: optimizeLegibility;
 	}
 
+b{
+	color: #999999 ;
+	font-weight: bolder;
+}
+
 .wrapper{
 	
 	max-width: 950px;
