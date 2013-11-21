@@ -141,8 +141,8 @@ body {
     text-rendering: optimizeLegibility;
 	}
 
-b{
-	color: #999999 ;
+b, strong{
+	color: #E84A5F ;
 	font-weight: bolder;
 }
 
@@ -176,6 +176,17 @@ b{
 	float: right;
 	text-align: left;
 	text-align: justify;
+}
+
+.profilepic {
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px; 
+	background: url('http://i.imgur.com/5D0RQNU.png') center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 5px;
 }
 
 .archive {
@@ -228,10 +239,14 @@ p {
 	font-weight: 400;
   	font-size: 62px;
   	letter-spacing: 0.2em;
-	color: #000;
+	color: #E84A5F;
 	text-align: center;
 	text-transform: none;
 	font-style: none;
+    transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease; 
+    -webkit-transition: color 0.5s ease; 
+    -o-transition: color 0.5s ease; 
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -244,7 +259,7 @@ p {
 	}
 
 #teatime:hover{
-	color: #000;
+	color: #E8CAA4;
 	}
 	
 article h1 {
@@ -258,7 +273,7 @@ article h1 {
 article	h1 strong {display: block; font-size: 24px;}
 	
 article	h1 a {text-decoration: none; color: #000;}
-article	h1 a:hover {text-decoration: none; color: #999999;}
+article	h1 a:hover {text-decoration: none; color: #E84A5F;}
 
 h2 {
 	font-family: 'Lora', Georgia, serif;
@@ -267,7 +282,7 @@ h2 {
 	font-weight: normal;
 	text-transform: none;
 	line-height: 15px;
-	margin-left: -5px;
+	margin-bottom: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #eee;
 }
@@ -290,7 +305,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #999999; 
+	color: #FF847C; 
 	}
 
 nav ul li:first-child {
@@ -304,7 +319,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #999999; 
+	color: #FF847C; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -317,7 +332,7 @@ nav ul li a:hover {
 	}
 
 a {
-	color: #999999;
+	color: #FF847C;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -336,7 +351,7 @@ a.links {
 	border-radius: 4px;
 	display: block;
 	clear:both;
-	color: #999999;
+	color: #E84A5F;
 	font-family: lato, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -369,7 +384,7 @@ a.links:hover {
 code {
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size: 12px;
-	width: 625px;
+	max-width: 100%;
 	color: #333;
 	font-weight: normal;
 	-webkit-border-radius: 0px 8px 0px 8px;
@@ -383,11 +398,12 @@ code {
 	background-clip: padding-box;
 	border: 1px solid #ffbc9b;
 	background-color: #fff;
-	padding: 20px;
-	margin-left: 15px;
+	padding: 10px 20px 10px 20px;
+/*	margin-left: 15px;
 	margin-bottom: 15px;
-	margin-bottom: 8px;
+	margin-bottom: 8px;*/
 	display: inline-block;
+	text-align: left; !important
 	}
 
 code b{
