@@ -13,6 +13,12 @@ $(document).ready(function (){
          position: ["-68","0"]
       });
    */
+
+  	$('.flexslider').flexslider({
+    	animation: "slide",
+    	slideshow: false
+  	});
+
 });
 
 

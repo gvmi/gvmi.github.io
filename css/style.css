@@ -217,6 +217,23 @@ p {
 	border-bottom: 1px solid #eee;
 }
 
+.photoFooter {
+	margin: 0 auto;
+	max-width: 100%;
+	background: #ffffff;
+	height: auto;
+	-webkit-box-shadow: #eee 1px 1px 1px;
+	-moz-box-shadow: #eee 1px 1px 1px;
+	box-shadow: #eee 1px 1px 1px;	
+	border: #fff 5px solid;
+	padding: 5px 25px 5px 25px;
+	line-height: 2em;
+	text-align: center;
+	color: #333;
+	margin-left: -4px;
+	margin-top: -20px;
+}
+
 .designBox{
 	max-width:125px;
 	width: 100%;
@@ -259,7 +276,7 @@ p {
 	}
 
 #teatime:hover{
-	color: #E8CAA4;
+	color: #FF847C;
 	}
 	
 article h1 {
