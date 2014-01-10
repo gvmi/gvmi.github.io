@@ -147,7 +147,6 @@ b, strong{
 }
 
 .wrapper{
-	
 	max-width: 950px;
 	margin: 0 auto;
 	margin-top: 25px;
@@ -360,7 +359,7 @@ a {
 
 a:hover {
 	color: #666666;
-	}
+}
 
 a.links {
 	padding:5px;
@@ -435,26 +434,6 @@ a:link {-webkit-tap-highlight-color: #fcd700;}
 
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
-
-.tooltip{
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 3;
-	font-size: 14px;
-	font-family: 'Lora', Georgia, serif;
-	font-style: italic;
-	text-align: center;
-	line-height: 0px;
-	color: #fff;
- 	padding: 13px;
- 	white-space: nowrap;
-	background: rgba(0, 0, 0, 0.5);
-	-webkit-border-radius: 0px 6px 6px 6px;
-	-moz-border-radius: 0px 6px 6px 6px;
-	border-radius: 0px 6px 6px 6px;
-}
             
 .pagination {
 	margin: 20px 0 0 0;
@@ -486,17 +465,74 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 /* media queries
 -------------------------------------------------------------------------------*/
-
-@media screen and (max-device-width: 480px) {
-			
+@media all and (max-width: 960px) {
+	.wrapper{
+		max-width: 90%;
+		margin: 0 auto;
+		margin-top: 25px;
 	}
 
-@media all and (orientation: portrait) {
+	.sidebar {
+		padding: 0 20px 0 20px;
+		float: left;
+		max-width: 100%;
+		margin-top: 20px;
+	}
+
+	.main {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding: 0 20px 0 0;
+		text-align: left;
+		float: left;
+		border-right: none;
+	}
 	
+	.main img {
+		max-width: 100%;
+		height: auto;
 	}
-
-@media all and (orientation: landscape) {
 	
+	nav {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		z-index: 1000;
+		border-bottom: 1px solid #eee;
+		padding: 0 20px 0 20px;
 	}
 
+	#teatime {
+	  	width: 100%;	
+	  	margin: 0 auto;
+	    float: left;
+	    margin: 10px 0 10px 0;
+	    background-color: #fff;
+		font-family: 'Josefin Slab', serif;
+		font-weight: 400;
+	  	font-size: 38px;
+	  	letter-spacing: 0.2em;
+		color: #E84A5F;
+		text-align: center;
+	}
 
+}
+@media only screen and (max-width : 500px) {
+	nav {
+		margin: 0 auto;
+		margin-bottom: 0px;
+		z-index: 1000;
+		border-bottom: 1px solid #eee;
+		padding: 0 20px 0 20px;
+	}
+	nav ul li {
+		display: block; 
+		padding-right: 0;
+		color: #FF847C; 
+	}
+}
+
+/* < 799 */
+@media only screen and (max-width: 1080px) {
+
+}
