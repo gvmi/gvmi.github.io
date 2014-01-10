@@ -430,7 +430,7 @@ code b{
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
 ::selection {background: #fcd700; color: #fff; text-shadow: none;} 
 
-a:link {-webkit-tap-highlight-color: #fcd700;} 
+/*a:link {-webkit-tap-highlight-color: #fcd700;} */
 
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
