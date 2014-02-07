@@ -132,7 +132,10 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 
 body {
-	background: #fff;	
+
+	background: url('/images/head.jpg');
+	background-size: 100%;
+	background-repeat: repeat-x;
 	font-family: Lato, sans-serif;
 	font-size: 13px;
 	line-height: 1.5;
@@ -141,30 +144,25 @@ body {
     text-rendering: optimizeLegibility;
 	}
 
-b, strong{
-	color: #E84A5F ;
-	font-weight: bolder;
-}
-
 .wrapper{
 	max-width: 950px;
 	margin: 0 auto;
-	margin-top: 25px;
-	background-color: #fff;
-	border-top: 1px solid #eee;
 	}
 
 .main {
 	width: 100%;
 	max-width: 590px;
 	margin: 0 auto;
-	margin-bottom: 50px;
 	padding: 0px;
 	text-align: left;
 	float: left;
 	padding-right: 20px;
 	border-right: 1px solid #eee;
 	}
+
+.mov_post {
+	padding: 0px 7px 0px 7px;
+}
 
 .sidebar {
 	width 100%;
@@ -249,8 +247,7 @@ p {
   	width: 100%;	
   	margin: 0 auto;
     float: left;
-    margin: 40px 0 40px 0;
-    background-color: #fff;
+    margin: 100px 0 40px 0;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 400;
   	font-size: 62px;
@@ -284,14 +281,16 @@ article h1 {
 	font-weight: 300;
 	text-transform: uppercase;
 	margin: 10px 0 2px 0;
+	padding: 15px;
+	background-color: #ffefee;
 	}
 	
 article	h1 strong {display: block; font-size: 24px;}
 	
-article	h1 a {text-decoration: none; color: #000;}
+article	h1 a {text-decoration: none; color: #333;}
 article	h1 a:hover {text-decoration: none; color: #E84A5F;}
 
-h2 {
+h3 {
 	font-family: 'Lora', Georgia, serif;
 	font-size: 15px;
 	font-style: italic;
@@ -307,10 +306,14 @@ p{
 
 }
 
+b, strong{
+	color: #E84A5F ;
+	font-weight: bolder;
+}
+
 body, select, input, textarea {color: #333;}
 
 nav {
-
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
