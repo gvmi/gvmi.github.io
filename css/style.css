@@ -271,7 +271,7 @@ p {
 	}
 
 #teatime:hover{
-	color: #FC9469;
+	color: #E17C36;
 	}
 	
 article h1 {
@@ -285,7 +285,7 @@ article h1 {
 	
 article	h1 strong {display: block; font-size: 24px;}
 	
-article	h1 a {text-decoration: none; color: #FC9469;}
+article	h1 a {text-decoration: none; color: #E17C36;}
 article	h1 a:hover {text-decoration: none; color: #AC462B;}
 
 h3 {
@@ -322,7 +322,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #FC9469; 
+	color: #E17C36; 
 	}
 
 nav ul li:first-child {
@@ -336,7 +336,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #FC9469; 
+	color: #E17C36; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -349,7 +349,7 @@ nav ul li a:hover {
 	}
 
 a {
-	color: #FC9469;
+	color: #E17C36;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -376,6 +376,9 @@ a.links {
 	width: 50%;
 }
 
+a.links:hover {
+	color: #E17C36;
+}
 
 .minor {
 	font-family: 'Droid Sans Mono', sans-serif;
@@ -424,10 +427,10 @@ code b{
 	font-weight: bold;
 	color: #de0025;
 	}
-
+/*
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
 ::selection {background: #fcd700; color: #fff; text-shadow: none;} 
-/*
+
 a:link {-webkit-tap-highlight-color: #fcd700;} 
 
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
@@ -526,7 +529,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	nav ul li {
 		display: block; 
 		padding-right: 0;
-		color: #FC9469; 
+		color: #E17C36; 
 	}
 }
 
