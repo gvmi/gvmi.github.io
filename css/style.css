@@ -271,22 +271,21 @@ p {
 	}
 
 #teatime:hover{
-	color: #4B3323;
+	color: #FC9469;
 	}
 	
 article h1 {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
+	color: #AC462B;
 	text-transform: uppercase;
 	margin: 10px 0 2px 0;
-	padding: 15px;
-	background-color: #8ABEA3;
 	}
 	
 article	h1 strong {display: block; font-size: 24px;}
 	
-article	h1 a {text-decoration: none; color: #333;}
+article	h1 a {text-decoration: none; color: #FC9469;}
 article	h1 a:hover {text-decoration: none; color: #AC462B;}
 
 h3 {
@@ -306,7 +305,7 @@ p{
 }
 
 b, strong{
-	color: #AC462B ;
+	color: #8ABEA3 ;
 	font-weight: bolder;
 }
 
@@ -323,7 +322,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #4B3323; 
+	color: #FC9469; 
 	}
 
 nav ul li:first-child {
@@ -337,7 +336,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #4B3323; 
+	color: #FC9469; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -346,11 +345,11 @@ nav ul li a {
 	}
 	
 nav ul li a:hover {
-	color: #666666;
+	color: #AC462B;
 	}
 
 a {
-	color: #4B3323;
+	color: #FC9469;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -377,9 +376,6 @@ a.links {
 	width: 50%;
 }
 
-a.links:hover {
-	color: #666666;
-}
 
 .minor {
 	font-family: 'Droid Sans Mono', sans-serif;
@@ -431,12 +427,12 @@ code b{
 
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
 ::selection {background: #fcd700; color: #fff; text-shadow: none;} 
-
-/*a:link {-webkit-tap-highlight-color: #fcd700;} */
+/*
+a:link {-webkit-tap-highlight-color: #fcd700;} 
 
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
-            
+            */
 .pagination {
 	margin: 20px 0 0 0;
 	padding: 12px;
@@ -530,7 +526,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	nav ul li {
 		display: block; 
 		padding-right: 0;
-		color: #4B3323; 
+		color: #FC9469; 
 	}
 }
 
