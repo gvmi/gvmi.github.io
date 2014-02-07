@@ -251,7 +251,7 @@ p {
 	font-weight: 400;
   	font-size: 62px;
   	letter-spacing: 0.2em;
-	color: #E84A5F;
+	color: #AC462B;
 	text-align: center;
 	text-transform: none;
 	font-style: none;
@@ -271,7 +271,7 @@ p {
 	}
 
 #teatime:hover{
-	color: #FF847C;
+	color: #4B3323;
 	}
 	
 article h1 {
@@ -281,13 +281,13 @@ article h1 {
 	text-transform: uppercase;
 	margin: 10px 0 2px 0;
 	padding: 15px;
-	background-color: #ffefee;
+	background-color: #8ABEA3;
 	}
 	
 article	h1 strong {display: block; font-size: 24px;}
 	
 article	h1 a {text-decoration: none; color: #333;}
-article	h1 a:hover {text-decoration: none; color: #E84A5F;}
+article	h1 a:hover {text-decoration: none; color: #AC462B;}
 
 h3 {
 	font-family: 'Lora', Georgia, serif;
@@ -306,7 +306,7 @@ p{
 }
 
 b, strong{
-	color: #E84A5F ;
+	color: #AC462B ;
 	font-weight: bolder;
 }
 
@@ -323,7 +323,7 @@ nav {
 nav ul li {
 	display: inline-block; 
 	padding-right: 30px;
-	color: #FF847C; 
+	color: #4B3323; 
 	}
 
 nav ul li:first-child {
@@ -337,7 +337,7 @@ nav ul li a {
 	letter-spacing: 0px;
 	padding: 5px;
 	font-style: none;
-	color: #FF847C; 
+	color: #4B3323; 
 	white-space: nowrap;
 	transition: color .4s ease;
 	-moz-transition: color .4s ease; 
@@ -350,7 +350,7 @@ nav ul li a:hover {
 	}
 
 a {
-	color: #FF847C;
+	color: #4B3323;
 	border: none;
 	text-decoration: none;
 	transition: color .4s ease;
@@ -369,7 +369,7 @@ a.links {
 	border-radius: 4px;
 	display: block;
 	clear:both;
-	color: #E84A5F;
+	color: #AC462B;
 	font-family: lato, sans-serif;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -514,7 +514,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 		font-weight: 400;
 	  	font-size: 38px;
 	  	letter-spacing: 0.2em;
-		color: #E84A5F;
+		color: #AC462B;
 		text-align: center;
 	}
 
@@ -530,7 +530,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 	nav ul li {
 		display: block; 
 		padding-right: 0;
-		color: #FF847C; 
+		color: #4B3323; 
 	}
 }
 
