@@ -138,24 +138,24 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.wrapper{max-width: 550px; margin: 0 auto;}
+.wrapper{max-width: 34.375em; margin: 0 auto;}
 
 #teatime {
   	max-width: 100%;	
-    margin: 215px 0 10px 0;
+    margin: 3.625em 0 0.205em 0;
 	font-family: 'Arimo', sans-serif;
-  	font-size: 56px;
+  	font-size: 3.500em;
   	font-weight: 300;
 	color: #fff;
 	text-align: center;
-	padding: 10px;
-	border: 6px solid #fff;
+	padding: 0.205em;
+	border: 0.120em solid #fff;
 }
 
 section {
 	max-width: 100%; 
 	margin: 0 auto;
-	padding: 10px; 
+	padding: 0.625em; 
 	text-align: justify; 
 	line-height: 1.5;
 }
@@ -164,18 +164,27 @@ section p {display: inline; color: #fff; font-family: 'Lora', serif;}
 
 section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font-variant: small; font-style: italic;}
 
-nav {margin: 0 auto;}
+nav {max-width: 100%; margin: 0 auto;}
 
-nav ul li {display: inline-block; padding: 20px;}
+nav ul li {
+	width: 95%; 
+	margin: 0.625em 0 0.625em 0;
+	display: block; 
+	padding: 0.625em; 
+	background-color: rgba(0, 0, 0, 0.50);
+    transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease; 
+    -webkit-transition: background-color 0.5s ease; 
+    -o-transition: background-color 0.5s ease; 
+}
 		
+nav ul li:hover {background-color: rgba(0, 0, 0, 0.63);}
+
 nav ul li a {
-	padding: 5px;
-	border: 1px solid #eee;
-	color: #AC462B;
+	color: #fff;
 	font-family: lato, sans-serif;
-	font-size: 10px;
 	text-transform: uppercase;
-	margin: 10px 0 10px 0;
+	text-decoration: none;
 }
 	
 nav ul li a:hover {color: #fff;}
@@ -190,22 +199,13 @@ footer {
 	margin: 0 auto; 
 	text-align:center; 
 	color: #fff; 
-	padding: 3px;
-	background-color: rgba(0, 0, 0, 0.55);
-	}
+	padding: 0.625em;
+}
 
 /* media queries
 -------------------------------------------------------------------------------*/
-@media all and (max-width: 960px) {
 
-
-}
-
-@media only screen and (max-width : 500px) {
-
-}
-
-/* < 799 */
-@media only screen and (max-width: 1080px) {
-
+@media only screen and (max-width: 47.938em) {
+	#teatime {margin: 0.625em;}
+	section p { color: #000;}
 }

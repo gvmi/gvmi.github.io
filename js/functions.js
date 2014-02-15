@@ -4,32 +4,15 @@
 
 /* trigger when page is ready */
 $(document).ready(function (){ 
-   /*
-      $(".teatime").simpletip({
-         content: 'hello',
-         showEffect: 'slide',
+   
+      $("").simpletip({
+         content: 'UI/UX DESIGNER',
+         showEffect: 'fade',
          hideEffect: 'fade',
+         showTime: 1200,
+         hideTime: 1200,
          fixed: true,
-         position: ["-68","0"]
+         position: ["-100","0"]
       });
-   */
-
-  	$('.flexslider').flexslider({
-    	animation: "slide",
-    	slideshow: false
-  	});
 
 });
-
-
-/* optional triggers
-
-$(window).load(function() {
-   
-});
-
-$(window).resize(function() {
-   
-});
-
-*/
