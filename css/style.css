@@ -127,7 +127,7 @@ button {width: auto; overflow: visible;}
 body {
 	background: url('/images/wallpaper-2926.jpg');
    	position: relative;
-	background-repeat: repeat;
+	background-repeat: repeat-y;
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
