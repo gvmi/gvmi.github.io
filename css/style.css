@@ -216,5 +216,7 @@ footer {
 		   -moz-background-size: none;
 		     -o-background-size: none;
 		        background-size: none;
+		position: absolute;
+		background-position: center;
 	}
 }
