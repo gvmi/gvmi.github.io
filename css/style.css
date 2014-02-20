@@ -212,5 +212,9 @@ footer {
 		background: url('/images/green_cup.png');
 		background-repeat: repeat;
 		background-attachment: fixed;
+		-webkit-background-size: normal;
+		   -moz-background-size: normal;
+		     -o-background-size: normal;
+		        background-size: normal;
 	}
 }
