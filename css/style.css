@@ -206,6 +206,11 @@ footer {
 -------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 47.938em) {
-	#teatime {margin: 0.625em;}
-	section p { color: #000;}
+	#teatime {margin: 0.175em;}
+
+	body {
+		background: url('/images/green_cup.png');
+		background-repeat: repeat;
+		background-attachment: fixed;
+	}
 }
