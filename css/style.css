@@ -125,7 +125,7 @@ button {width: auto; overflow: visible;}
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background: url('/images/wallpaper-2926.jpg');
+	background: url('/images/wallpaper-2466699.jpg');
    	position: relative;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
@@ -164,6 +164,9 @@ section p {display: inline; color: #fff; font-family: 'Lora', serif;}
 
 section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font-variant: small; font-style: italic;}
 
+section p a {color: #fff; font-style: italic; text-decoration: none;}
+section p a:hover {color: #fff; font-style: normal; font-weight: bold;}
+
 nav {max-width: 100%; margin: 0 auto;}
 
 nav ul li {
@@ -187,10 +190,7 @@ nav ul li a {
 	text-decoration: none;
 }
 	
-nav ul li a:hover {color: #fff;}
-
-a {color: #000;}
-a:hover {color: #000;}
+nav ul li a:hover {color: #fff; font-style: normal;}
 
 footer { 
 	max-width: 8%; 
