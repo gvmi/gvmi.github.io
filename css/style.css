@@ -164,8 +164,8 @@ section p {display: inline; color: #fff; font-family: 'Lora', serif;}
 
 section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font-variant: small; font-style: italic;}
 
-section p a {color: #fff; font-style: italic; text-decoration: none;}
-section p a:hover {color: #fff; font-style: normal; font-weight: bold;}
+section p a {color: #fff; text-decoration: none; border-bottom: 1px dotted #fff;}
+section p a:hover {color: #eee; font-style: normal;}
 
 nav {max-width: 100%; margin: 0 auto;}
 
@@ -174,14 +174,14 @@ nav ul li {
 	margin: 0.625em 0 0.625em 0;
 	display: block; 
 	padding: 0.625em; 
-	background-color: rgba(0, 0, 0, 0.50);
+	background-color: rgba(0, 0, 0, 0.25);
     transition: background-color 0.5s ease;
     -moz-transition: background-color 0.5s ease; 
     -webkit-transition: background-color 0.5s ease; 
     -o-transition: background-color 0.5s ease; 
 }
 		
-nav ul li:hover {background-color: rgba(0, 0, 0, 0.63);}
+nav ul li:hover {background-color: rgba(0, 0, 0, 0.41);}
 
 nav ul li a {
 	color: #fff;
