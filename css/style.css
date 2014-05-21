@@ -125,7 +125,7 @@ button {width: auto; overflow: visible;}
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background: url('/images/wallpaper-2466699.jpg');
+	background: #fff;
    	position: relative;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
@@ -142,55 +142,48 @@ body {
 
 #teatime {
   	max-width: 100%;	
-    margin: 0 0 0.205em 0;
+    margin: 0 auto;
 	font-family: 'Arimo', sans-serif;
   	font-size: 3.500em;
   	font-weight: 700;
-	color: #fff;
+	color: #000;
 	text-align: center;
-	padding: 0.205em;
-	border: 0.120em solid #fff;
+	padding-left: 0.400em;
 }
 
 section {
 	max-width: 100%; 
 	margin: 0 auto;
-	padding: 0.625em; 
-	text-align: justify; 
+	padding-right: 0.125em; 
+	padding-bottom: 0.625em;
+	text-align: right; 
 	line-height: 1.5;
 }
 
-section p {display: inline; color: #fff; font-family: 'Lora', serif; text-transform: lowercase;}
+section p {display: inline; color: #000; font-family: 'Lora', serif; text-transform: lowercase;}
 
 section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font-variant: small; font-style: italic; text-transform: none;}
 
-section p a {color: #fff; text-decoration: none; border-bottom: 1px dotted #fff;}
-section p a:hover {color: #eee; font-style: normal;}
+section p a {color: #000; text-decoration: none; border-bottom: 1px dotted #000;}
+section p a:hover {color: #666; font-style: normal;}
 
-nav {max-width: 100%; margin: 0 auto;}
+nav {max-width: 100%; margin: 0 auto; padding-right: 0.325em;}
 
 nav ul li {
 	max-width: 100%; 
-	margin: 0.625em 0 0.625em 0;
+	margin: 0;
 	display: block; 
-	padding: 0.625em 0 0.625em 0; 
-	background-color: rgba(0, 0, 0, 0.25);
-    transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease; 
-    -webkit-transition: background-color 0.5s ease; 
-    -o-transition: background-color 0.5s ease; 
+	text-align: right;
 }
 		
-nav ul li:hover {background-color: rgba(0, 0, 0, 0.41);}
-
 nav ul li a {
-	color: #fff;
-	font-family: lato, sans-serif;
-	text-transform: uppercase;
+	color: #000;
+	font-family: lora, serif;
+	text-transform: lowercase;
 	text-decoration: none;
 }
 	
-nav ul li a:hover {color: #fff; font-style: normal;}
+nav ul li a:hover {color: #666; font-style: normal;}
 
 footer { 
 	max-width: 8%; 
@@ -198,14 +191,14 @@ footer {
 	font-family: 'Lato', sans-serif;
 	margin: 0 auto; 
 	text-align:center; 
-	color: #fff; 
+	color: #000; 
 	padding: 0.625em;
 }
 
 /* media queries
 -------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 47.938em) {
+/*@media only screen and (max-width: 47.938em) {
 	body {background: #fff;}
 	#teatime {margin: 0.175em; color: #000; border: 0.120em solid #000;}
 	section p {color: #000;}
@@ -224,4 +217,4 @@ footer {
 	nav ul li a {color: #000;}
 	nav ul li a:hover {color: #333;}
 	footer { color: #000;}
-}
+}*/
