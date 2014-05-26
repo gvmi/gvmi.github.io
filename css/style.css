@@ -138,26 +138,23 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.wrapper{max-width: 34.375em; margin: 0 auto;}
+.wrapper{max-width: 39.375em; margin-top: 19%; margin-left: 25%;}
 
 #teatime {
   	max-width: 100%;	
-    margin: 0 auto;
 	font-family: 'Arimo', sans-serif;
   	font-size: 3.500em;
   	font-weight: 700;
 	color: #000;
-	text-align: center;
-	padding-left: 0.400em;
 }
 
 section {
-	max-width: 100%; 
-	margin: 0 auto;
-	padding-right: 0.125em; 
-	padding-bottom: 0.625em;
-	text-align: right; 
+	max-width: 70%; 
+	text-align: left; 
 	line-height: 1.5;
+	float: right;
+	display: block;
+	margin-top: -5px;
 }
 
 section p {display: inline; color: #000; font-family: 'Lora', serif; text-transform: lowercase;}
@@ -167,13 +164,13 @@ section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font
 section p a {color: #000; text-decoration: none; border-bottom: 1px dotted #000;}
 section p a:hover {color: #666; font-style: normal;}
 
-nav {max-width: 100%; margin: 0 auto; padding-right: 0.325em;}
+nav {max-width: 20%; float: left;}
 
 nav ul li {
 	max-width: 100%; 
-	margin: 0;
-	display: block; 
-	text-align: right;
+	text-align: left;
+	display: block;
+	margin-left: 5px;
 }
 		
 nav ul li a {
