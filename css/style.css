@@ -138,7 +138,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.wrapper{max-width: 39.375em; margin-top: 19%; margin-left: 25%;}
+.wrapper{max-width: 39.375em; margin-top: 17%; margin-left: 25%; margin-bottom: 5%;}
 
 #teatime {
   	max-width: 100%;	
@@ -182,36 +182,14 @@ nav ul li a {
 	
 nav ul li a:hover {color: #666; font-style: normal;}
 
-footer { 
-	max-width: 8%; 
-	font-size: 0.750em;
-	font-family: 'Lato', sans-serif;
-	margin: 0 auto; 
-	text-align:center; 
-	color: #000; 
-	padding: 0.625em;
-}
-
 /* media queries
 -------------------------------------------------------------------------------*/
 
-/*@media only screen and (max-width: 47.938em) {
-	body {background: #fff;}
-	#teatime {margin: 0.175em; color: #000; border: 0.120em solid #000;}
-	section p {color: #000;}
+@media only screen and (max-width: 50.938em) {
+	.wrapper {margin: 0 auto; max-width: 90%;}
+	#teatime {margin: 0; max-width: 100%; display: block;}
 	section p:first-child {letter-spacing: 0em;}
-	section p a {color: #000; border-bottom: 1px dotted #000;}
-	section p a:hover {color: #888; font-style: normal;}
-	nav ul li {
-		background-color: rgba(0, 0, 0, 0);
-		border: 1px solid #000;
-	    transition: none;
-	    -moz-transition: none; 
-	    -webkit-transition: none; 
-	    -o-transition: none; 
-	}
-	nav ul li:hover {background-color: #fff;}
-	nav ul li a {color: #000;}
-	nav ul li a:hover {color: #333;}
-	footer { color: #000;}
-}*/
+	section {display: block; float: none; max-width: 100%; margin-top: 5px;}
+	nav {margin: 0 auto; max-width: 100%; display: block; float: none;}
+	nav ul li {margin: 0; display: inline; padding-right: 10px;}
+}
