@@ -126,19 +126,9 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 body {
 	background: #fff;
-   	position: relative;
-	background-repeat: repeat-y;
-	background-attachment: fixed;
-	background-position: center center;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
 }
 
-.wrapper{max-width: 39.375em; margin-top: 17%; margin-left: 25%; margin-bottom: 5%;}
+.wrapper{max-width: 45.250em; margin-top: 17%; margin-left: 25%; margin-bottom: 5%;}
 
 #teatime {
   	max-width: 100%;	
@@ -149,12 +139,13 @@ body {
 }
 
 section {
-	max-width: 70%; 
+	max-width: 75%; 
 	text-align: left; 
 	line-height: 1.5;
 	float: right;
 	display: block;
 	margin-top: -5px;
+	font-size: 1.313em;
 }
 
 section p {display: inline; color: #000; font-family: 'Lora', serif; text-transform: lowercase;}
@@ -175,12 +166,26 @@ nav ul li {
 		
 nav ul li a {
 	color: #000;
-	font-family: lora, serif;
-	text-transform: lowercase;
+	font-family: Lora, serif;
+	font-size: 1.313em;
 	text-decoration: none;
 }
 	
-nav ul li a:hover {color: #666; font-style: normal;}
+nav ul li a:hover, ul li a:hover {color: #666; font-style: normal;}
+
+ul li {
+	max-width: 100%; 
+	text-align: left;
+	display: block;
+	font-size: 1.313em;
+}
+
+ul li a {
+	color: #000;
+	font-family: Lora, serif;
+	font-size: 0.895em;
+}
+
 
 /* media queries
 -------------------------------------------------------------------------------*/

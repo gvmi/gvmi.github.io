@@ -1,0 +1,60 @@
+body {
+	background: #fff;
+}
+
+.wrapper{max-width: 49.250em; width: 100%; margin-top: 10%; margin-left: 25%; margin-bottom: 5%; font-family: Open Sans, sans-serif;}
+
+svg {
+    width: 100%;
+}
+
+strong {
+    color: lightcoral;
+}
+
+.link {
+    stroke: #ccc;
+    stroke-width: 1px;
+}
+
+.node text {
+    pointer-events: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 10px;
+}
+
+#children.col-md-3 {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    width: 20%;
+}
+
+
+#mid.col-md-3 {
+    border-right: 1px solid #eee;
+    width: 20%;
+}
+
+
+#old.col-md-3 {
+    border-right: 1px solid #eee;
+    width: 20%;
+}
+
+
+#labelC.col-md-3, #labelM.col-md-3, #labelO.col-md-3 {
+    width: 20%;
+    padding-left: 35px;
+}
+
+#label1.col-md-3  {
+    padding-top: 43px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+small#label {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
