@@ -16,13 +16,13 @@ var areaO = [ 13, 346, 107, 16, 121, 31, 364 ];
 var onMouseover = function() {
 	var circ = d3.select(this);
 	circ.transition().duration(300)
-	.attr('fill', 'indianred');
+	.attr('fill', 'palevioletred');
 };
 
 var onMouseout = function() {
 	var circ = d3.select(this);
 	circ.transition().duration(300)
-	.attr('fill', 'lightcoral');
+	.attr('fill', 'lightpink');
 };
 
 
@@ -36,7 +36,7 @@ children.append('circle')
 	.attr('cx', 57)
 	.attr('cy', 55)
 	.attr('r', function(d) { return d; })
-	.attr('fill', 'lightcoral')
+	.attr('fill', 'lightpink')
 	.on('mouseover', onMouseover)
 	.on('mouseout', onMouseout)
 	.data(areaC)
@@ -53,7 +53,7 @@ midAdults.append('circle')
 	.attr('cx', 57)
 	.attr('cy', 55)
 	.attr('r', function(d) {return d;})
-	.attr('fill', 'lightcoral')
+	.attr('fill', 'lightpink')
 	.on('mouseover', onMouseover)
 	.on('mouseout', onMouseout)
 	.data(areaM)
@@ -70,7 +70,7 @@ oldAdults.append('circle')
 	.attr('cx', 57)
 	.attr('cy', 55)
 	.attr('r', function(d) {return d;})
-	.attr('fill', 'lightcoral')
+	.attr('fill', 'lightpink')
 	.on('mouseover', onMouseover)
 	.on('mouseout', onMouseout)
 	.data(areaO)

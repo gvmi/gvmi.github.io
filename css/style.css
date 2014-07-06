@@ -128,7 +128,7 @@ body {
 	background: #fff;
 }
 
-.wrapper{max-width: 45.250em; margin-top: 17%; margin-left: 25%; margin-bottom: 5%;}
+.wrapper{max-width: 45.250em; margin: 0 auto; margin-top: 17%; margin-bottom: 5%;}
 
 #teatime {
   	max-width: 100%;	
@@ -145,7 +145,7 @@ section {
 	float: right;
 	display: block;
 	margin-top: -5px;
-	font-size: 1.313em;
+	font-size: 1.000em;
 }
 
 section p {display: inline; color: #000; font-family: 'Lora', serif; text-transform: lowercase;}
@@ -167,7 +167,7 @@ nav ul li {
 nav ul li a {
 	color: #000;
 	font-family: Lora, serif;
-	font-size: 1.313em;
+	font-size: 1.000em;
 	text-decoration: none;
 }
 	
@@ -177,7 +177,7 @@ ul li {
 	max-width: 100%; 
 	text-align: left;
 	display: block;
-	font-size: 1.313em;
+	font-size: 1.000em;
 }
 
 ul li a {
