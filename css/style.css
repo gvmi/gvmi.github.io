@@ -125,76 +125,64 @@ button {width: auto; overflow: visible;}
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background: #fff;
+	background: url('/images/wallpaper-2466699.jpg');
+	position: relative;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
-.wrapper{max-width: 45.250em; margin: 0 auto; margin-top: 17%; margin-bottom: 5%;}
+.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 17%; margin-bottom: 5%;}
+
 
 #teatime {
-  	max-width: 100%;	
-	font-family: 'Arimo', sans-serif;
-  	font-size: 3.500em;
-  	font-weight: 700;
-	color: #000;
+	max-width: 100%;	
+	margin: 0 0 0.205em 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.500em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	padding: 0.205em;
+	border: 0.120em solid #fff;
 }
 
-section {
-	max-width: 75%; 
-	text-align: left; 
-	line-height: 1.5;
-	float: right;
-	display: block;
-	margin-top: -5px;
-	font-size: 1.000em;
-}
-
-section p {display: inline; color: #000; font-family: 'Lora', serif; text-transform: lowercase;}
-
-section p:first-child {font-family: 'Lora', serif; letter-spacing: 0.125em; font-variant: small; font-style: italic; text-transform: none;}
-
-section p a {color: #000; text-decoration: none; border-bottom: 1px dotted #000;}
-section p a:hover {color: #666; font-style: normal;}
-
-nav {max-width: 20%; float: left;}
+nav {max-width: 100%; margin: 0 auto;}
 
 nav ul li {
-	max-width: 100%; 
-	text-align: left;
+	max-width: 100%;
 	display: block;
-	margin-left: 5px;
+	text-align: center;
+	margin: 0.625em 0 0.625em 0;
+	padding: 0.625em 0 0.625em 0;
+	background-color: rgba(0, 0, 0, 0.25);
+	transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
 }
-		
+
+nav ul li:hover {background-color: rgba(0, 0, 0, 0.41);}
+
 nav ul li a {
-	color: #000;
-	font-family: Lora, serif;
-	font-size: 1.000em;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 	text-decoration: none;
 }
-	
-nav ul li a:hover, ul li a:hover {color: #666; font-style: normal;}
 
-ul li {
-	max-width: 100%; 
-	text-align: left;
-	display: block;
-	font-size: 1.000em;
-}
-
-ul li a {
-	color: #000;
-	font-family: Lora, serif;
-	font-size: 0.895em;
-}
+nav ul li a:hover {color: #fff; font-style: normal;}
 
 
 /* media queries
 -------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 50.938em) {
-	.wrapper {margin: 0 auto; max-width: 90%;}
-	#teatime {margin: 0; max-width: 100%; display: block;}
-	section p:first-child {letter-spacing: 0em;}
-	section {display: block; float: none; max-width: 100%; margin-top: 5px;}
-	nav {margin: 0 auto; max-width: 100%; display: block; float: none;}
-	nav ul li {margin: 0; display: inline; padding-right: 10px;}
+@media only screen and (max-width: 47.938em) {
+
 }
