@@ -1,5 +1,5 @@
 /* 
-	Sharrie Chen @ sharriechen.com
+	sharrie @ gumi.nu
 	
 	----------------------------------------------------------
 	HTML 5 Reset Code
@@ -125,59 +125,58 @@ button {width: auto; overflow: visible;}
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background: url('/images/wallpaper-2466699.jpg');
+	background: url('/images/swirl_pattern_light.png');
 	position: relative;
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	background-attachment: fixed;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #333;
 }
 
-.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 19%; margin-bottom: 5%;}
+.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 10%; margin-bottom: 5%; padding: 1em;}
 
 
 #teatime {
 	max-width: 100%;	
-	margin: 0 0 0.205em 0;
-	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 0.405em 0;
+	font-family: 'Monda', sans-serif;
 	font-size: 3.500em;
-	font-weight: 700;
-	color: #fff;
+	font-weight: 400;
 	text-align: center;
 	padding: 0.205em;
-	border: 0.120em solid #fff;
+	background: none;
+	border: 0.11em solid #333;
 }
 
-nav {max-width: 100%; margin: 0 auto;}
+nav {max-width: 100%; margin: 0 auto; margin-bottom: 1.25em;}
 
 nav ul li {
+	letter-spacing: 0.125em;
+	text-transform: uppercase;
 	max-width: 100%;
 	display: block;
 	text-align: center;
 	margin: 0.625em 0 0.625em 0;
 	padding: 0.625em 0 0.625em 0;
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.06);
 	transition: background-color 0.5s ease;
 	-moz-transition: background-color 0.5s ease;
 	-webkit-transition: background-color 0.5s ease;
 	-o-transition: background-color 0.5s ease;
 }
 
-nav ul li:hover {background-color: rgba(0, 0, 0, 0.41);}
+nav ul li:hover {background-color: rgba(0, 0, 0, 0.15);}
 
 nav ul li a {
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	color: #333;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-nav ul li a:hover {color: #fff; font-style: normal;}
+nav ul li a:hover {font-style: normal;}
 
 
 /* media queries
