@@ -32,7 +32,7 @@ body, select, input, textarea {color: #333;}
 -------------------------------------------------------------------------------*/
 img,
 object,
-embed {max-width: 59.375em; height: auto;}
+embed {height: auto;}
 
 /* force a vertical scrollbar to prevent a jumpy page */
 html {overflow-y: scroll;}
@@ -136,8 +136,12 @@ body {
 	color: #333;
 }
 
-.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 10%; margin-bottom: 5%; padding: 1em;}
+img {
+	max-width: 100%;
+}
 
+.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 10%; margin-bottom: 5%; padding: 1em;}
+.wrapper-ext{max-width: 60.375em; margin: 0 auto; margin-top: 5%; margin-bottom: 5%; padding: 1em;}
 
 #teatime {
 	max-width: 100%;	
@@ -176,7 +180,13 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li a:hover {font-style: normal;}
+nav ul li a:hover {font-style: normal; color:#333;}
+
+h1 {
+	font-family: 'Monda', sans-serif;
+	font-size: 2.25em;
+	font-weight: normal;
+}
 
 #back a {
 	color: #777;
@@ -191,8 +201,6 @@ nav ul li a:hover {font-style: normal;}
 }
 
 #back a:hover {color: #333;}
-
-#content {margin-left: 7%;}
 
 #content a {
 	color: #555;
