@@ -219,6 +219,12 @@ h1 {
 /* media queries
 -------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 47.938em) {
-
+@media only screen and (max-width: 32.938em) {
+	#back a {font-size: 1.0em;}
+	#content a {font-size: 0.70em;}
+	h1 {
+		font-family: 'Monda', sans-serif;
+		font-size: 1.55em;
+		font-weight: normal;
+	}
 }
