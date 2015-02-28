@@ -188,6 +188,12 @@ h1 {
 	font-weight: normal;
 }
 
+h2 {
+	font-family: 'Monda', sans-serif;
+	font-size: 1.55em;
+	font-weight: normal;
+}
+
 #back a {
 	color: #777;
 	text-decoration: none; 
@@ -215,6 +221,14 @@ h1 {
 }
 
 #content a:hover {color: #CA3287;}
+
+p a {
+	color: #555;
+}
+
+p a:hover {
+	color: #000;
+}
 
 /* media queries
 -------------------------------------------------------------------------------*/
