@@ -125,7 +125,8 @@ button {width: auto; overflow: visible;}
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background: url('/images/swirl_pattern_light.png');
+	background: url('http://subtlepatterns.com/images/transp_bg.png');
+	background-color: #fff;
 	position: relative;
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -140,47 +141,42 @@ img {
 	max-width: 100%;
 }
 
-.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 10%; margin-bottom: 5%; padding: 1em;}
+.wrapper{max-width: 34.375em; margin: 0 auto; margin-top: 6%; margin-bottom: 5%; padding: 1em;}
 .wrapper-ext{max-width: 60.375em; margin: 0 auto; margin-top: 5%; margin-bottom: 5%; padding: 1em;}
 
 #teatime {
 	max-width: 100%;	
-	margin: 0 0 0.405em 0;
+	margin-left: -0.1em;
 	font-family: 'Monda', sans-serif;
 	font-size: 3.500em;
 	font-weight: 400;
-	text-align: center;
-	padding: 0.205em;
 	background: none;
-	border: 0.11em solid #333;
 }
 
-nav {max-width: 100%; margin: 0 auto; margin-bottom: 1.25em;}
+nav {max-width: 100%; margin: 0 auto; margin-bottom: 2.25em; margin-top: 0.55em;}
 
 nav ul li {
 	letter-spacing: 0.125em;
 	text-transform: uppercase;
 	max-width: 100%;
-	display: block;
-	text-align: center;
-	margin: 0.625em 0 0.625em 0;
-	padding: 0.625em 0 0.625em 0;
-	background-color: rgba(0, 0, 0, 0.06);
+	display: inline-block;
+	padding: 0.625em	;
+	background-color: #ffb300;
 	transition: background-color 0.5s ease;
 	-moz-transition: background-color 0.5s ease;
 	-webkit-transition: background-color 0.5s ease;
 	-o-transition: background-color 0.5s ease;
 }
 
-nav ul li:hover {background-color: rgba(0, 0, 0, 0.15);}
+nav ul li:hover {background-color: #ff8f00;}
 
 nav ul li a {
-	color: #333;
+	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
-nav ul li a:hover {font-style: normal; color:#333;}
+nav ul li a:hover {font-style: normal; color:#fff;}
 
 h1 {
 	font-family: 'Monda', sans-serif;
@@ -194,51 +190,21 @@ h2 {
 	font-weight: normal;
 }
 
-#back a {
-	color: #777;
-	text-decoration: none; 
-	letter-spacing: 0.125em;
-	text-transform: uppercase;
-	font-size: 1.5em;
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-webkit-transition: color 0.5s ease;
-	-o-transition: color 0.5s ease;
-}
-
-#back a:hover {color: #333;}
-
-#content a {
-	color: #555;
-	text-decoration: none; 
-	letter-spacing: 0.125em;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-webkit-transition: color 0.5s ease;
-	-o-transition: color 0.5s ease;
-}
-
-#content a:hover {color: #CA3287;}
-
 p a {
-	color: #555;
+	color: #333; 
+	border-bottom: 1px solid #ff8f00; 
+	text-decoration: none;
+	transition: color 0.35s ease;
+	-moz-transition: color 0.35s ease;
+	-webkit-transition: color 0.35s ease;
+	-o-transition: color 0.35s ease;
 }
 
-p a:hover {
-	color: #000;
-}
+p a:hover {color: #ff8f00;}
 
 /* media queries
 -------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 32.938em) {
-	#back a {font-size: 1.35em;}
-	#content a {font-size: 1.00em;}
-	h1 {
-		font-family: 'Monda', sans-serif;
-		font-size: 1.75em;
-		font-weight: normal;
-	}
+	nav ul li {display: block; margin-bottom: 0.25em;}
 }
