@@ -6,15 +6,15 @@
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
-	<head id="www.gumi.nu/" data-template-set="html5-reset">
+	<head id="www.sharrie.co/" data-template-set="html5-reset">
 
 		<meta charset="utf-8">
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		
-		<title>GUMI</title>
-		
-		<meta name="title" content="GUMI">
+
+		<title>hello</title>
+
+		<meta name="title" content="sharrie">
 		<meta name="description" content="personal portfolio of sharrie.">
 
 		<meta name="google-site-verification" content="google1d7808dffe1bfa75.html">
@@ -22,28 +22,106 @@
 		<meta name="author" content="sharrie" >
 		<meta name="Copyright" content="">
 
-		<meta name="DC.title" content="GUMI">
+		<meta name="DC.title" content="sharrie">
 		<meta name="DC.subject" content="personal portfolio of sharrie.">
 		<meta name="DC.creator" content="sharrie">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 		<link rel="shortcut icon" href="/images/favicon.ico">
-		
-		<link rel="stylesheet" href="/css/style.css"/>
-		<link rel="stylesheet" href="/css/flexslider.css"/>
-		<link rel="stylesheet" href="/css/font-awesome.min.css">
 
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/css/style.css"/>
+
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,700,400italic' rel='stylesheet' type='text/css'>
 
+		<script src="/js/pt.min.js"></script>
 		<script src="/js/modernizr-1.7.min.js"></script>
 	</head>
 
 	<body>
 
 		{{content}}
+
+		<script type="text/javascript">
+			(function() {
+				//// 1. Define Space and Form
+				var colors = {
+				  a1: "#ff2d5d", a2: "#42dc8e", a3: "#2e43eb", a4: "#ffe359",
+				  b1: "#96bfed", b2: "#f5ead6", b3: "#f1f3f7", b4: "#e2e6ef"
+				};
+				var space = new CanvasSpace("demo", colors.b4 ).display();
+				var form = new Form( space );
+				form.stroke( false );
+
+
+				//// 2. Create Elements
+				var quads = {topleft: [], topright: [], bottomleft: [], bottomright: []};
+				var center = space.size.$divide(2).floor();
+				var mouse = new Color(0,0,0,1,"hsb");
+
+				var steps = 10;
+				var step = center.$divide( steps );
+				var scale = 0.5;
+
+				// create rectangles in each quadrant
+				for (var i=0; i<steps; i++) {
+				  var tl = new Rectangle( step.$multiply( i) ).to( center );
+				  quads.topleft.push( tl );
+				  quads.topright.push( tl.clone().moveBy( step.x * (steps-i), 0 ) );
+				  quads.bottomleft.push( tl.clone().moveBy( 0, step.y * (steps-i) ) );
+				  quads.bottomright.push( tl.clone().moveBy( step.x * (steps-i), step.y * (steps-i) ) );
+				}
+
+
+				//// 3. Visualize, Animate, Interact
+				space.add({
+				  animate: function(time, fps, context) {
+				    var cstep = 20;
+
+				    // go through each step
+				    for (var i=0; i<steps; i++) {
+
+				      // base color for this step
+				      var color = new Color( 20*(i+1), 0.2, (i+1)/steps * 0.5, 1, 'hsb');
+
+				      color.add( mouse ); // shift color for top-left
+				      form.fill( color.rgb() );
+				      form.rect( quads.topleft[i] );
+
+
+				      color.x += (cstep + cstep*scale); // shift color for top-right
+				      form.fill( color.rgb() );
+				      form.rect( quads.topright[i] );
+
+				      color.x += (cstep + cstep*scale); // shift color for bottom-right
+				      form.fill( color.rgb() );
+				      form.rect( quads.bottomright[i] );
+
+
+				      color.x += (cstep + cstep*scale); // shift color for bottom-left
+				      form.fill( color.rgb() );
+				      form.rect( quads.bottomleft[i] );
+
+				    }
+				  },
+				  onMouseAction: function(type, x, y, evt) {
+				    if (type=="move") {
+				      // angle from center shifts the hue, and distance from center shifts then saturation
+				      var vec = center.$subtract(x,y);
+				      scale = (vec.magnitude() / space.size.y);
+				      mouse.set( Const.rad_to_deg * Util.boundRadian( vec.angle(), true ), scale/2,  scale/2 )
+				    }
+				  }
+				});
+
+
+				// 4. Start playing
+				space.bindMouse();
+				space.play();
+			}) ();
+		</script>
 
 		<script>
 		  var _gaq = _gaq || [];
