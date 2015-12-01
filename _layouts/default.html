@@ -51,67 +51,57 @@
 				  a1: "#ff2d5d", a2: "#42dc8e", a3: "#2e43eb", a4: "#ffe359",
 				  b1: "#96bfed", b2: "#f5ead6", b3: "#f1f3f7", b4: "#e2e6ef"
 				};
-				var space = new CanvasSpace("demo", colors.b4 ).display();
+				var space = new CanvasSpace("demo", "#222" ).display();
 				var form = new Form( space );
-				form.stroke( false );
 
 
 				//// 2. Create Elements
-				var quads = {topleft: [], topright: [], bottomleft: [], bottomright: []};
-				var center = space.size.$divide(2).floor();
-				var mouse = new Color(0,0,0,1,"hsb");
+				var pairs = [];
+				var center = space.size.$divide(2);
+				var mouse = center.clone();
 
-				var steps = 10;
-				var step = center.$divide( steps );
-				var scale = 0.5;
+				var steps = 115;
+				var r = Math.min( space.size.x, space.size.y ) * 0.8;
+				var dr = Math.min( space.size.x, space.size.y ) * 0.8 / steps;
 
-				// create rectangles in each quadrant
+				// create pairs
 				for (var i=0; i<steps; i++) {
-				  var tl = new Rectangle( step.$multiply( i) ).to( center );
-				  quads.topleft.push( tl );
-				  quads.topright.push( tl.clone().moveBy( step.x * (steps-i), 0 ) );
-				  quads.bottomleft.push( tl.clone().moveBy( 0, step.y * (steps-i) ) );
-				  quads.bottomright.push( tl.clone().moveBy( step.x * (steps-i), step.y * (steps-i) ) );
+				  var p = new Pair( Math.random()*r, Math.random()*r ).to( Math.random()*-r, Math.random()*-r );
+				  p.moveBy( center ).rotate2D( i*Math.PI/steps, center );
+				  pairs.push( p );
 				}
 
 
 				//// 3. Visualize, Animate, Interact
 				space.add({
 				  animate: function(time, fps, context) {
-				    var cstep = 20;
+				    for (var i=0; i<pairs.length; i++) {
 
-				    // go through each step
-				    for (var i=0; i<steps; i++) {
+				      // rotate each pair by 0.1 degree
+				      var pr = pairs[i];
+				      pr.rotate2D( Const.one_degree/10, center );
 
-				      // base color for this step
-				      var color = new Color( 20*(i+1), 0.2, (i+1)/steps * 0.5, 1, 'hsb');
+				      // check collinearity with mouse, and draw a line with different color
+				      var col = pr.collinear(mouse);
 
-				      color.add( mouse ); // shift color for top-left
-				      form.fill( color.rgb() );
-				      form.rect( quads.topleft[i] );
+				      // Exact collinearity with return 0, but here we just check for a generous threshold
+				      if ( Math.abs( col ) < 200 ) {
+				        // form.stroke("#fff");
+				        form.line( pr );
+				        form.line( pr.clone().to( mouse ) );
 
+				      // not collinear, check whether mouse is on left or right side
+				      } else {
+				        form.stroke( ( (col<0) ? "rgba(170,102,212,.3)" : "rgba(250,156,118,.2)") ).line( pr );
+				        form.stroke(false ).fill("#fff").points( pr.toArray(), 0.5) ;
+				      }
 
-				      color.x += (cstep + cstep*scale); // shift color for top-right
-				      form.fill( color.rgb() );
-				      form.rect( quads.topright[i] );
-
-				      color.x += (cstep + cstep*scale); // shift color for bottom-right
-				      form.fill( color.rgb() );
-				      form.rect( quads.bottomright[i] );
-
-
-				      color.x += (cstep + cstep*scale); // shift color for bottom-left
-				      form.fill( color.rgb() );
-				      form.rect( quads.bottomleft[i] );
-
+				      form.fill( colors.a1 ).stroke(false).point( mouse, 1.5, true );
 				    }
 				  },
 				  onMouseAction: function(type, x, y, evt) {
 				    if (type=="move") {
-				      // angle from center shifts the hue, and distance from center shifts then saturation
-				      var vec = center.$subtract(x,y);
-				      scale = (vec.magnitude() / space.size.y);
-				      mouse.set( Const.rad_to_deg * Util.boundRadian( vec.angle(), true ), scale/2,  scale/2 )
+				      mouse.set(x,y);
 				    }
 				  }
 				});

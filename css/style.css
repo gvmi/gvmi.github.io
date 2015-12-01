@@ -135,7 +135,28 @@ img {
 	max-width: 100%;
 }
 
-.wrapper{max-width: 50.5em; margin: 0 auto; margin-top: 10%; margin-bottom: 0%; padding: 0em;}
+.wrapper{max-width: 50.5em; margin: 0 auto; margin-top: 10%; margin-bottom: 0%; }
+
+header {
+	border: 1px solid #fff;
+	padding: 25px;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+#title {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 2.25em;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: .25em;
+}
+
+.description {
+	text-align: center;
+	color: white;
+}
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
