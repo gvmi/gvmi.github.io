@@ -15,7 +15,7 @@
 		<title>hello</title>
 
 		<meta name="title" content="sharrie">
-		<meta name="description" content="personal portfolio of sharrie.">
+		<meta name="description" content="hello.">
 
 		<meta name="google-site-verification" content="google1d7808dffe1bfa75.html">
 
@@ -23,7 +23,7 @@
 		<meta name="Copyright" content="">
 
 		<meta name="DC.title" content="sharrie">
-		<meta name="DC.subject" content="personal portfolio of sharrie.">
+		<meta name="DC.subject" content="hello.">
 		<meta name="DC.creator" content="sharrie">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -60,7 +60,7 @@
 				var center = space.size.$divide(2);
 				var mouse = center.clone();
 
-				var steps = 115;
+				var steps = 50;
 				var r = Math.min( space.size.x, space.size.y ) * 0.8;
 				var dr = Math.min( space.size.x, space.size.y ) * 0.8 / steps;
 
@@ -79,7 +79,7 @@
 
 				      // rotate each pair by 0.1 degree
 				      var pr = pairs[i];
-				      pr.rotate2D( Const.one_degree/10, center );
+				      pr.rotate2D( Const.one_degree/50, center );
 
 				      // check collinearity with mouse, and draw a line with different color
 				      var col = pr.collinear(mouse);
@@ -92,11 +92,11 @@
 
 				      // not collinear, check whether mouse is on left or right side
 				      } else {
-				        form.stroke( ( (col<0) ? "rgba(170,102,212,.3)" : "rgba(250,156,118,.2)") ).line( pr );
+				        form.stroke( ( (col<0) ? "rgba(109,192,213,.13)" : "rgba(193,207,218,.12)") ).line( pr );
 				        form.stroke(false ).fill("#fff").points( pr.toArray(), 0.5) ;
 				      }
 
-				      form.fill( colors.a1 ).stroke(false).point( mouse, 1.5, true );
+				      // form.fill( colors.a1 ).stroke(false).point( mouse, 1.5, true );
 				    }
 				  },
 				  onMouseAction: function(type, x, y, evt) {
@@ -108,7 +108,7 @@
 
 
 				// 4. Start playing
-				space.bindMouse();
+				// space.bindMouse();
 				space.play();
 			}) ();
 		</script>
