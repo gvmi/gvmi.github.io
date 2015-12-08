@@ -138,10 +138,27 @@ button {width: auto; overflow: visible;}
 
 }
 
+
+@font-face {
+	font-family:'TiemposText';
+	font-style:normal;
+	font-weight:normal;
+	src: url('/fonts/TiemposTextWeb-Regular.eot');
+	src: url('/fonts/TiemposTextWeb-Regular.eot') format('embedded-opentype'),url('/fonts/TiemposTextWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family:'TiemposText';
+	font-style:italic;
+	font-weight:normal;
+	src: url('/fonts/TiemposTextWeb-RegularItalic.eot');
+	src: url('/fonts/TiemposTextWeb-RegularItalic.eot') format('embedded-opentype'),url('/fonts/TiemposTextWeb-RegularItalic.woff') format('woff');
+}
+
 /* fun stuff
 -------------------------------------------------------------------------------*/
 body {
-	background-color: white;
+	background-color: #222;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 	color: #333;
@@ -154,15 +171,16 @@ img {
 .wrapper{max-width: 59.5em; margin: 0 auto; margin-top: 10%; margin-bottom: 0%; }
 
 header {
-	margin-top: 30%;
+	margin-top: 20%;
 	max-width: 100%;
 }
 
 #title {
+	max-width: 17%;
 	padding:10px;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	font-size: 2.75em;
+	font-family: 'Roboto',-apple-system,'Helvetica Neue', sans-serif;
+	color: #eeeeee;
+	font-size: 1.58em;
 	letter-spacing: .25em;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -202,10 +220,11 @@ header {
 
 .description {
 	padding: 10px;
-	max-width: 50%;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.25em;
+	max-width: 54%;
+	color: #eeeeee;
+	font-family:'TiemposText',Georgia,'Times Roman',serif;
+	font-size: 1.215em;
+	line-height: 1.80em;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 3s; /* Firefox < 16 */
       -ms-animation: fadein 3s; /* Internet Explorer */
@@ -213,23 +232,21 @@ header {
           animation: fadein 3s;
 }
 
-
-h1 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2.25em;
-	font-weight: 800;
-}
-
-
 #pt {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100vh;
+	height: 99vh;
 	padding: 0;
 	z-index: -1;
 	background-color: #000;
+}
+
+a {
+	color:#CFB384;
+	text-decoration: none;
+	font-style: italic;
 }
 
 /* media queries
