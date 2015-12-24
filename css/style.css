@@ -259,7 +259,7 @@ p {
 	background-color: #000;
 	overflow: hidden;
 	background: url('/assets/bg.jpg');
-	background-position: left center;
+	background-position: left bottom;
 	background-size: cover;
 }
 
