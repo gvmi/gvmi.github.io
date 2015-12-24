@@ -231,6 +231,23 @@ p {
 	line-height: 1.68em;
 }
 
+#credit {
+	padding: 12px 0px 0px 9px;
+	font-family: 'Droid Sans Mono',-apple-system,'Helvetica Neue', sans-serif;
+	font-size: .63em;
+	line-height: 0px;
+}
+
+#illustration {
+	top: 4px;
+	left: 4px;
+	position: absolute;
+	width: 170px;
+	height: 25px;
+	background-color: #fff;
+	z-index: 2;
+}
+
 #bg {
 	position: absolute;
 	top: 0;
