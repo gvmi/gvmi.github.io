@@ -149,7 +149,7 @@ img {
 	width: 96px;
 	height: 96px;
 	background: url('/assets/me.png');
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	-webkit-animation: fadein 1s;
 		 -moz-animation: fadein 1s;
 			-ms-animation: fadein 1s;
