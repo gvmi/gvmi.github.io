@@ -289,5 +289,15 @@ a:hover {
 /* media queries
 -------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 32.938em) {
+@media only screen and (max-width: 650px) {
+	#bg {
+		display: none;
+	}
+	#illustration {
+		display: none;
+	}
+	.wrapper {
+		max-width: 90%;
+		margin-left: 5%;
+	}
 }
